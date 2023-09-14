@@ -1,0 +1,36 @@
+C:\Users\Edgar Bilbao Rocha\source\repos\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\bin\Debug\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\source\repos\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\bin\Debug\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\source\repos\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.csproj.AssemblyReference.cache
+C:\Users\Edgar Bilbao Rocha\source\repos\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Bilbao Rocha\source\repos\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\source\repos\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.csproj.AssemblyReference.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\bin\Debug\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\bin\Debug\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\bin\Debug\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\bin\Debug\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.csproj.AssemblyReference.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.pdb
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\bin\Debug\SolucionesMedicasBilbaoDAO.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\bin\Debug\SolucionesMedicasBilbaoDAO.pdb
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.csproj.AssemblyReference.cache
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.csproj.CoreCompileInputs.cache
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\bin\Debug\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\bin\Debug\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.csproj.AssemblyReference.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\bin\Debug\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\bin\Debug\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.csproj.AssemblyReference.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoDAO\obj\Debug\SolucionesMedicasBilbaoDAO.pdb
