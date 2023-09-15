@@ -23,12 +23,10 @@ namespace SolucionesMedicasBilbaoWeb
             if(SessionClass.StatusPass == 1)
             {
                 divPass.Visible = false;
-                btnCancelar.Visible = false;
             }
             else
             {
                 divPass.Visible = true;
-                btnCancelar.Visible = false;
             }
 
         }

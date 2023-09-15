@@ -1,34 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using iTextSharp.text.pdf;
+﻿using iTextSharp.text.pdf;
 using iTextSharp.text;
 using SolucionesMedicasBilbaoDAO;
 using SolucionesMedicasBilbaoDAO.Implementacion;
 using SolucionesMedicasBilbaoDAO.Model;
-
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace SolucionesMedicasBilbaoWeb
 {
-    public partial class WebAdmSupplier : System.Web.UI.Page
+    public partial class WebAdmCustomer : System.Web.UI.Page
     {
-        Supplier t;
-        SupplierImpl implSupplier;
+        Customer t;
+        CustomerImpl implCustomer;
         protected void Page_Load(object sender, EventArgs e)
         {
             Select();
         }
+
         void Select()
         {
             try
             {
-                implSupplier = new SupplierImpl();
-                gridData.DataSource = implSupplier.Select();
+                implCustomer = new CustomerImpl();
+                gridData.DataSource = implCustomer.Select();
                 gridData.DataBind();
             }
             catch (Exception ex)
@@ -38,21 +37,18 @@ namespace SolucionesMedicasBilbaoWeb
             }
         }
 
-
         protected void gridData_RowCommand(object sender, GridViewCommandEventArgs e)
         {
-          
             if (e.CommandName == "Eliminar")
             {
                 int id = Convert.ToInt32(e.CommandArgument);
-                SupplierImpl impl = new SupplierImpl();
+                CustomerImpl impl = new CustomerImpl();
                 byte ID = Convert.ToByte(id);
-                Supplier supplier = new Supplier(ID);
-                impl.Delete(supplier);
+                Customer customer = new Customer(ID);
+                impl.Delete(customer);
                 Select();
             }
         }
-
         protected void btnGenerarPDF_Click(object sender, EventArgs e)
         {
             // Crear el documento PDF
@@ -83,12 +79,10 @@ namespace SolucionesMedicasBilbaoWeb
 
             // Descargar el PDF generado
             Response.ContentType = "application/pdf";
-            Response.AddHeader("content-disposition", "attachment;filename=Proveedores.pdf");
+            Response.AddHeader("content-disposition", "attachment;filename=Clientes.pdf");
             Response.Cache.SetCacheability(HttpCacheability.NoCache);
             Response.BinaryWrite(memoryStream.ToArray());
             Response.End();
         }
-
-
     }
 }

@@ -40,7 +40,7 @@
                       <div class="row">
                           <div class="form-group col-md-6">
                             <asp:Label runat="server">Nit</asp:Label>
-                            <asp:TextBox ID="txtNit" MaxLength="13" runat="server" class="form-control required"  placeholder="Ingrese NIT" onkeypress="validarNIT(event)" onkeyup="removeExtraSpaces(this);">
+                            <asp:TextBox ID="txtNit" MaxLength="30" runat="server" class="form-control required"  placeholder="Ingrese NIT" onkeypress="validarNIT(event)" onkeyup="removeExtraSpaces(this);">
                             </asp:TextBox>
                           </div>
                       
@@ -176,7 +176,19 @@
             var txtNit = document.getElementById('<%= txtNit.ClientID %>');
             var txtDescriptionError = document.getElementById('txtError');
 
-                    
+
+            function valNit(nit) {
+                var nd, add = 0;
+                if (nd = /^(\d+)\-?([\dk])$/i.exec(nit)) {
+                    nd[2] = (nd[2].toLowerCase() == 'k') ? 10 : parseInt(nd[2]);
+                    for (var i = 0; i < nd[1].length; i++) {
+                        add += (((i - nd[1].length) * -1) + 1) * nd[1][i];
+                    }
+                    return ((11 - (add % 11)) % 11) == nd[2];
+                } else {
+                    return false;
+                }
+            }
 
             // Verificar si los campos requeridos están vacíos
             if (txtName.value.trim() === '') {
@@ -208,11 +220,15 @@
 
             if (txtNit.value.trim() === '') {
                 txtNit.classList.remove('error');
-            } else if (txtNit.value.trim().length <= 13) {
+            } else if (txtNit.value.trim() === '') {
                 txtNit.classList.add('error');
                 txtDescriptionError.textContent = 'Ingrese correctamente el NIT';
-                return false; 
-            } 
+                return false; // Evitar el envío del formulario
+            } else if (!valNit(txtNit.value.trim())) {
+                txtNit.classList.add('error');
+                txtDescriptionError.textContent = 'Ingrese un NIT válido';
+                return false; // Evitar el envío del formulario
+            }
         };
 
     </script>

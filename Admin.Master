@@ -1,0 +1,274 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="SolucionesMedicasBilbaoWeb.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title><%:Page.Title%> - SolucionesMedicasBilbao</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <script src="leaflet/leaflet.js"></script>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+
+
+</head>
+<body class="control-sidebar-slide-open sidebar-mini-md sidebar-collapse" style="background-color:#2B2A2A">
+
+     <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light" style="background-color:#3F6793;">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+        <li class="nav-item d-none d-sm-inline-block">
+          <img src="../../dist/img/capture.png" width="150" style="opacity: .8">
+      </li>
+      <li class="nav-item">
+        <a href="Default.aspx" class="nav-link d-none d-md-inline-block" style="color:white; font-size:50px; font-family:oswald;">Soluciones Médicas Bilbao</a>
+      </li>
+
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="WebReset.aspx" class="nav-link"  style="color:white; font-family:oswald;">Cambio Contraseña</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">                                                                    
+        <a href="WebLogin.aspx" class="nav-link" style="color:white; font-family:oswald;">Cerrar Sesión</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="fullscreen"  style="color:white; font-family:oswald;" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color:#1B425E">
+    <!-- Brand Logo -->
+    <a href="Default.aspx" class="brand-link">
+      <img src="../../dist/img/capture.png" alt="AdminLTE Logo" class="brand-image" style="opacity: .8">
+      <span class="brand-text font-weight-light">SMB</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+            <li class="nav-item">
+             <a href="WebAdmUser.aspx" class="nav-link">
+                <i class="nav-icon fas fa-user-tie"></i>
+                <p>
+                Usuarios
+                </p>
+            </a>
+           </li>
+
+            <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-shopping-basket"></i>
+              <p>
+                Productos
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-cogs nav-icon"></i>
+                  <p>Administración Producto</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="WebAdmCategory.aspx" class="nav-link">
+                  <i class="fas fa-tags nav-icon"></i>
+                  <p>Categoría</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+            <li class="nav-item">
+             <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-user-tie"></i>
+                <p>
+                Cliente
+                <i class="fas fa-angle-left right"></i>
+                </p>
+             </a>
+             <ul class="nav nav-treeview">
+                <li class="nav-item">
+                <a href="WebAdmCustomer.aspx" class="nav-link">
+                    <i class="fas fa-user-plus nav-icon"></i>
+                    <p>Registrar</p>
+                </a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-shipping-fast nav-icon"></i>
+                    <p>Envío</p>
+                </a>
+                </li>
+             </ul>
+            </li>
+ 
+            <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-map-marker-alt"></i>
+              <p>
+                Direccion
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="WebAdmLocation.aspx" class="nav-link">
+                  <i class="fas fa-map-marker-alt nav-icon"></i>
+                  <p>Lugar</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class=" fas fa-map nav-icon"></i>
+                  <p>Municipio</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-city nav-icon"></i>
+                  <p>Departamento</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-file-invoice"></i>
+                    <p>
+                    Venta
+                    <i class="fas fa-angle-left right"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-concierge-bell nav-icon"></i>
+                        <p>Servicios</p>
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-box-open nav-icon"></i>
+                        <p>Productos</p>
+                    </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-tools"></i>
+              <p>
+                Servicios
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-cogs nav-icon"></i>
+                  <p>Administración</p>
+                </a>
+              </li>
+            </ul>
+            <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-truck"></i>
+              <p>
+                Proveedor
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="WebAdmSupplier.aspx" class="nav-link">
+                  <i class="fas fa-dolly nav-icon"></i>
+                  <p>Administración Proveedor</p>
+                </a>
+              </li>
+                 <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-ship nav-icon"></i>
+                  <p>Embarcador</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+           <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-globe-americas"></i>
+              <p>
+                Incoterm
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-clipboard-check nav-icon"></i>
+                  <p>Administración Incoterm</p>
+                </a>
+              </li>
+                 <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-anchor nav-icon"></i>
+                  <p>Embarcación</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+    <div class="content-wrapper" style="background-color:#2B2A2A">
+        <div class="content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+<asp:ContentPlaceHolder ID="footer" runat="server">
+</asp:ContentPlaceHolder>
+    <!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+</body>
+</html>

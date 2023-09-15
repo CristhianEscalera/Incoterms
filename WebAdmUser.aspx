@@ -61,7 +61,7 @@
                     <input type="text" id="txtSearch" class="form-control" placeholder="Buscar...">
                     <div class="input-group-append">
                         <button class="btn btn-primary" id="btnSearchTop" onclick="searchData()">Buscar</button>
-                        <button class="btn btn-success" id="btnCreatePDF" onclick="createPDF()">Crear PDF</button>
+                        <asp:Button ID="btnGenerarPDF" runat="server" Text="Generar PDF" OnClick="btnGenerarPDF_Click" CssClass="btn btn-primary" />
                     </div>
                 </div>
             </div>

@@ -1,7 +1,6 @@
-﻿<%@ Page Title="Ad. Proveedor" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="WebAdmSupplier.aspx.cs" Inherits="SolucionesMedicasBilbaoWeb.WebAdmSupplier" %>
+﻿<%@ Page Title="Ad. Cientes" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="WebAdmCustomer.aspx.cs" Inherits="SolucionesMedicasBilbaoWeb.WebAdmCustomer" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-
-   <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
     <style>
@@ -39,20 +38,23 @@
         .required.error {
           border: 1px solid red;
         }
+        .selected-row {
+          background-color: #ffcc66; /* Color de fondo para la fila seleccionada */
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <form id="form2" runat="server">
+     <form id="form2" runat="server">
     <div class="form-box">
 
     <section class="content-header">
-        <h1 style="color:white; font-family:Oswald; font-size:30px;">P R O V E E D O R</h1>
+        <h1 style="color:white; font-family:Oswald; font-size:30px;">C L I E N T E S</h1>
     </section>
 
     <section class="content">
         <div class="row">
             <div class="col-md-3">
-                <a class="btn btn-block btn-info btn-lg" href='WebNewSupplier.aspx'>Agregar</a>
+                <a class="btn btn-block btn-info btn-lg" href='WebNewCustomer.aspx'>Agregar</a>
             </div>
         </div>
         <br>
@@ -72,16 +74,19 @@
             <div class="box-body" style="background-color:white;max-height: 450px; width:100%; overflow-y: auto; overflow-x: auto;" >
                 <asp:GridView ID="gridData" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered table-hover" OnRowCommand="gridData_RowCommand">
                     <Columns>
+                        <asp:BoundField DataField="CI" HeaderText="CI" />
+                        <asp:BoundField DataField="Nombres" HeaderText="Nombres" />
+                        <asp:BoundField DataField="Primer Apellido" HeaderText="Primer Apellido" />
+                        <asp:BoundField DataField="Segundo Apellido" HeaderText="Segundo Apellido" />
                         <asp:BoundField DataField="NIT" HeaderText="NIT" />
-                        <asp:BoundField DataField="Nombre Local" HeaderText="Nombre Local" />
-                        <asp:BoundField DataField="Lugar" HeaderText="Lugar" />
+                        <asp:BoundField DataField="Titulo" HeaderText="Título" />
+                        <asp:BoundField DataField="Nombre Institucion" HeaderText="Establecimiento" />
                         <asp:BoundField DataField="Telefono" HeaderText="Teléfono" />
-                        <asp:BoundField DataField="Sitio Web" HeaderText="Sitio Web" />
-                        <asp:BoundField DataField="Creado en" HeaderText="Creado en" />
+                        <asp:BoundField DataField="Creado en:" HeaderText="Creado en:" />
                         <asp:TemplateField HeaderText="Acciones">
                             <ItemTemplate>
-                                <a class="square-button blue-button" href='WebUpdateSupplier.aspx?id=<%#Eval("id")%>'><i class="fas fa-pencil-alt"></i></a>
-                                <asp:LinkButton ID="btnEliminar" runat="server" CssClass="square-button red-button" CommandName="Eliminar" CommandArgument='<%# Eval("ID") %>' Text='<i class="fas fa-trash"></i>' OnClientClick="return confirm('¿Deseas Eliminarlo?');"/>
+                                <a class="square-button blue-button" href='WebUpdateCustomer.aspx?id=<%#Eval("id")%>'><i class="fas fa-pencil-alt"></i></a>
+                                <asp:LinkButton ID="btnEliminar" runat="server" CssClass="square-button red-button" CommandName="Eliminar" OnClientClick="return confirm('¿Deseas Eliminarlo?');" CommandArgument='<%# Eval("ID") %>' Text='<i class="fas fa-trash"></i>'/>
                             </ItemTemplate>
                         </asp:TemplateField>
                     </Columns>
@@ -95,8 +100,7 @@
     </form>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
-     <!-- DataTables  & Plugins -->
-<script src="plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
 <script src="plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
 <script src="plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
@@ -123,4 +127,5 @@
         });
     });
 </script>
+
 </asp:Content>

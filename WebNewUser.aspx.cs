@@ -9,7 +9,6 @@ using System.Net;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Threading.Tasks;
 
 namespace SolucionesMedicasBilbaoWeb
 {
@@ -38,12 +37,7 @@ namespace SolucionesMedicasBilbaoWeb
                 string email = user.email;
                 if (validarEmail(email))
                 {
-                    Task.Run(() =>
-                    {
-                        // Envía el correo en un hilo separado
-                        SendMail(email, userName, password);
-                    });
-
+                    SendMail(email, userName, password);
                     Response.Redirect("WebAdmUser.aspx");
 
                 }

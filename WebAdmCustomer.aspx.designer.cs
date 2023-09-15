@@ -11,7 +11,7 @@ namespace SolucionesMedicasBilbaoWeb
 {
 
 
-    public partial class WebAdmUser
+    public partial class WebAdmCustomer
     {
 
         /// <summary>

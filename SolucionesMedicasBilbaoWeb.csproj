@@ -1,0 +1,346 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{939216B1-CB6D-4A50-8231-011D7E37B821}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SolucionesMedicasBilbaoWeb</RootNamespace>
+    <AssemblyName>SolucionesMedicasBilbaoWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Empleado.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Ingresos.aspx" />
+    <Content Include="leaflet\images\layers-2x.png" />
+    <Content Include="leaflet\images\layers.png" />
+    <Content Include="leaflet\images\marker-icon-2x.png" />
+    <Content Include="leaflet\images\marker-icon.png" />
+    <Content Include="leaflet\images\marker-shadow.png" />
+    <Content Include="leaflet\leaflet-src.esm.js" />
+    <Content Include="leaflet\leaflet-src.js" />
+    <Content Include="leaflet\leaflet.css" />
+    <Content Include="leaflet\leaflet.js" />
+    <Content Include="Web.config" />
+    <Content Include="WebAdmCategory.aspx" />
+    <Content Include="WebAdmCustomer.aspx" />
+    <Content Include="WebAdmLocation.aspx" />
+    <Content Include="WebNewLocation.aspx" />
+    <Content Include="WebAdmSupplier.aspx" />
+    <Content Include="WebAdmUser.aspx" />
+    <Content Include="WebLogin.aspx" />
+    <Content Include="WebNewCategory.aspx" />
+    <Content Include="WebNewCustomer.aspx" />
+    <Content Include="WebNewSupplier.aspx" />
+    <Content Include="WebNewUser.aspx" />
+    <Content Include="WebReset.aspx" />
+    <Content Include="WebUpdateCategory.aspx" />
+    <Content Include="WebUpdateCustomer.aspx" />
+    <Content Include="WebUpdateLocation.aspx" />
+    <Content Include="WebUpdateSupplier.aspx" />
+    <Content Include="WebUpdateUser.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado.aspx.cs">
+      <DependentUpon>Empleado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Empleado.aspx.designer.cs">
+      <DependentUpon>Empleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado.Master.cs">
+      <DependentUpon>Empleado.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Empleado.Master.designer.cs">
+      <DependentUpon>Empleado.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Ingresos.aspx.cs">
+      <DependentUpon>Ingresos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ingresos.aspx.designer.cs">
+      <DependentUpon>Ingresos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ingresos.Master.cs">
+      <DependentUpon>Ingresos.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ingresos.Master.designer.cs">
+      <DependentUpon>Ingresos.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.Master.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.Master.designer.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebAdmCategory.aspx.cs">
+      <DependentUpon>WebAdmCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmCategory.aspx.designer.cs">
+      <DependentUpon>WebAdmCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmCustomer.aspx.cs">
+      <DependentUpon>WebAdmCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmCustomer.aspx.designer.cs">
+      <DependentUpon>WebAdmCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmLocation.aspx.cs">
+      <DependentUpon>WebAdmLocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmLocation.aspx.designer.cs">
+      <DependentUpon>WebAdmLocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebNewLocation.aspx.cs">
+      <DependentUpon>WebNewLocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebNewLocation.aspx.designer.cs">
+      <DependentUpon>WebNewLocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmSupplier.aspx.cs">
+      <DependentUpon>WebAdmSupplier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmSupplier.aspx.designer.cs">
+      <DependentUpon>WebAdmSupplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmUser.aspx.cs">
+      <DependentUpon>WebAdmUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmUser.aspx.designer.cs">
+      <DependentUpon>WebAdmUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebLogin.aspx.cs">
+      <DependentUpon>WebLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebLogin.aspx.designer.cs">
+      <DependentUpon>WebLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebNewCategory.aspx.cs">
+      <DependentUpon>WebNewCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebNewCategory.aspx.designer.cs">
+      <DependentUpon>WebNewCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebNewCustomer.aspx.cs">
+      <DependentUpon>WebNewCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebNewCustomer.aspx.designer.cs">
+      <DependentUpon>WebNewCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebNewSupplier.aspx.cs">
+      <DependentUpon>WebNewSupplier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebNewSupplier.aspx.designer.cs">
+      <DependentUpon>WebNewSupplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebNewUser.aspx.cs">
+      <DependentUpon>WebNewUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebNewUser.aspx.designer.cs">
+      <DependentUpon>WebNewUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebReset.aspx.cs">
+      <DependentUpon>WebReset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebReset.aspx.designer.cs">
+      <DependentUpon>WebReset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUpdateCategory.aspx.cs">
+      <DependentUpon>WebUpdateCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUpdateCategory.aspx.designer.cs">
+      <DependentUpon>WebUpdateCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUpdateCustomer.aspx.cs">
+      <DependentUpon>WebUpdateCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUpdateCustomer.aspx.designer.cs">
+      <DependentUpon>WebUpdateCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUpdateLocation.aspx.cs">
+      <DependentUpon>WebUpdateLocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUpdateLocation.aspx.designer.cs">
+      <DependentUpon>WebUpdateLocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUpdateSupplier.aspx.cs">
+      <DependentUpon>WebUpdateSupplier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUpdateSupplier.aspx.designer.cs">
+      <DependentUpon>WebUpdateSupplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUpdateUser.aspx.cs">
+      <DependentUpon>WebUpdateUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUpdateUser.aspx.designer.cs">
+      <DependentUpon>WebUpdateUser.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin.Master" />
+    <Content Include="Login.Master" />
+    <Content Include="Empleado.Master" />
+    <Content Include="Ingresos.Master" />
+    <Content Include="leaflet\leaflet-src.esm.js.map" />
+    <Content Include="leaflet\leaflet-src.js.map" />
+    <Content Include="leaflet\leaflet.js.map" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SolucionesMedicasBilbaoDAO\SolucionesMedicasBilbaoDAO.csproj">
+      <Project>{1ea17c92-0780-46dc-862c-2e9f86a49151}</Project>
+      <Name>SolucionesMedicasBilbaoDAO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60829</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60829/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,34 +1,33 @@
-﻿using System;
+﻿using SolucionesMedicasBilbaoDAO;
+using System;
 using System.Collections.Generic;
-using System.IO;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using iTextSharp.text.pdf;
 using iTextSharp.text;
-using SolucionesMedicasBilbaoDAO;
-using SolucionesMedicasBilbaoDAO.Implementacion;
-using SolucionesMedicasBilbaoDAO.Model;
-
+using iTextSharp.text.pdf;
+using System.IO;
 
 namespace SolucionesMedicasBilbaoWeb
 {
-    public partial class WebAdmSupplier : System.Web.UI.Page
+    public partial class WebAdmCategory : System.Web.UI.Page
     {
-        Supplier t;
-        SupplierImpl implSupplier;
+        Category t;
+        CategoryImpl implCategory;
         protected void Page_Load(object sender, EventArgs e)
         {
             Select();
         }
+
         void Select()
         {
             try
             {
-                implSupplier = new SupplierImpl();
-                gridData.DataSource = implSupplier.Select();
+                implCategory = new CategoryImpl();
+                gridData.DataSource = implCategory.Select();
                 gridData.DataBind();
             }
             catch (Exception ex)
@@ -38,21 +37,18 @@ namespace SolucionesMedicasBilbaoWeb
             }
         }
 
-
         protected void gridData_RowCommand(object sender, GridViewCommandEventArgs e)
         {
-          
             if (e.CommandName == "Eliminar")
             {
                 int id = Convert.ToInt32(e.CommandArgument);
-                SupplierImpl impl = new SupplierImpl();
+                CategoryImpl impl = new CategoryImpl();
                 byte ID = Convert.ToByte(id);
-                Supplier supplier = new Supplier(ID);
-                impl.Delete(supplier);
+                Category category = new Category(ID);
+                impl.Delete(category);
                 Select();
             }
         }
-
         protected void btnGenerarPDF_Click(object sender, EventArgs e)
         {
             // Crear el documento PDF
@@ -60,6 +56,10 @@ namespace SolucionesMedicasBilbaoWeb
             MemoryStream memoryStream = new MemoryStream();
             PdfWriter writer = PdfWriter.GetInstance(pdfDoc, memoryStream);
             pdfDoc.Open();
+
+            BaseFont baseFont = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1252, BaseFont.NOT_EMBEDDED);
+            Font font = new Font(baseFont, 12f);
+
 
             // Agregar el contenido del GridView al PDF
             PdfPTable table = new PdfPTable(gridData.Columns.Count);
@@ -83,12 +83,10 @@ namespace SolucionesMedicasBilbaoWeb
 
             // Descargar el PDF generado
             Response.ContentType = "application/pdf";
-            Response.AddHeader("content-disposition", "attachment;filename=Proveedores.pdf");
+            Response.AddHeader("content-disposition", "attachment;filename=Categorias.pdf");
             Response.Cache.SetCacheability(HttpCacheability.NoCache);
             Response.BinaryWrite(memoryStream.ToArray());
             Response.End();
         }
-
-
     }
 }
