@@ -1,6 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="WebNewImport.aspx.cs" Inherits="SolucionesMedicasBilbaoWeb.WebNewImport" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="WebUpdateImport.aspx.cs" Inherits="SolucionesMedicasBilbaoWeb.WebUpdateImport" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-      <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+ <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
 <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
 <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
   <style>
@@ -13,7 +13,7 @@
   </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <form id="form1" runat="server">
+        <form id="form1" runat="server">
 <div class="form-box">
 
 <section class="content-header">
@@ -53,16 +53,17 @@
                             <asp:Label runat="server" Text="Fecha Inicio"></asp:Label>
                             <asp:TextBox ID="txtFechaInicio" runat="server" CssClass="form-control" TextMode="Date"></asp:TextBox>
                         </div>
-    
+
                         <div class="form-group col-md-4">
                             <asp:Label runat="server" Text="Fecha tentativa"></asp:Label>
                             <asp:TextBox ID="txtFechaTentativa" runat="server" CssClass="form-control" TextMode="Date"></asp:TextBox>
                         </div>
 
-                      <div class="form-group col-md-4">
-                        <asp:Label runat="server" Text="Fecha Final"></asp:Label>
-                        <asp:TextBox ID="txtFechaFin" runat="server" CssClass="form-control" TextMode="Date"></asp:TextBox>
-                    </div>
+                        <div class="form-group col-md-4">
+                            <asp:Label runat="server" Text="Fecha Final"></asp:Label>
+                            <asp:TextBox ID="txtFechaFin" runat="server" CssClass="form-control" TextMode="Date"></asp:TextBox>
+                        </div>
+   
                    </div>
                   <div class="row">
                     <div class="form-group col-md-3">
@@ -87,7 +88,7 @@
                  </div>
                 </div>
                 <div class="card-footer">
-                    <asp:Button ID="btnInsert" Text="Insertar" runat="server" CssClass="btn btn-block btn-info btn-lg" OnClick="btnInsert_Click"/>
+                    <asp:Button ID="btnModificar" Text="Modificar" runat="server" CssClass="btn btn-block btn-info btn-lg"  OnClick="btnModificar_Click"/>
                     <a class="btn btn-block btn-info btn-lg" href='WebAdmImport.aspx'>Cancelar</a>
                 </div>
             </div>
@@ -100,38 +101,37 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
     <script>
-    document.getElementById('<%= btnInsert.ClientID %>').onclick = function () {
-        var txtFechaInicio = document.getElementById('<%= txtFechaInicio.ClientID %>');
-        var txtFechaFin = document.getElementById('<%= txtFechaFin.ClientID %>');
-        var txtFechaTentativa = document.getElementById('<%= txtFechaTentativa.ClientID %>');
-        var txtDescriptionError = document.getElementById('txtError');
+document.getElementById('<%= btnModificar.ClientID %>').onclick = function () {
+    var txtFechaInicio = document.getElementById('<%= txtFechaInicio.ClientID %>');
+    var txtFechaFin = document.getElementById('<%= txtFechaFin.ClientID %>');
+    var txtFechaTentativa = document.getElementById('<%= txtFechaTentativa.ClientID %>');
+    var txtDescriptionError = document.getElementById('txtError');
 
-        var fechaInicio = new Date(txtFechaInicio.value);
-        var fechaTentativa = new Date(txtFechaTentativa.value);
-        var fechaFin = new Date(txtFechaFin.value);
+    var fechaInicio = new Date(txtFechaInicio.value);
+    var fechaTentativa = new Date(txtFechaTentativa.value);
+    var fechaFin = new Date(txtFechaFin.value);
 
-        if (isNaN(fechaInicio) ) {
-            txtDescriptionError.textContent = 'Ingrese fecha de inicio';
+    if (isNaN(fechaInicio) ) {
+        txtDescriptionError.textContent = 'Ingrese fecha de inicio';
+        return false;
+    }
+
+    if ( isNaN(fechaTentativa)) {
+        txtDescriptionError.textContent = 'Ingrese fechas tentativa';
+        return false;
+    } else if(fechaInicio > fechaTentativa) {
+        txtDescriptionError.textContent = 'La fecha tentativa no puede ser mayor a la fecha inicial';
+        return false;
+    }
+
+    if (txtFechaFin.value.trim() !== '') {
+        if (fechaInicio > fechaFin ) {
+            txtDescriptionError.textContent = 'La Fecha Final no puede ser menor a la fecha inicial';
             return false;
         }
+    }
 
-        if ( isNaN(fechaTentativa)) {
-            txtDescriptionError.textContent = 'Ingrese fechas tentativa';
-            return false;
-        } else if(fechaInicio > fechaTentativa) {
-            txtDescriptionError.textContent = 'La fecha tentativa no puede ser mayor a la fecha inicial';
-            return false;
-        }
-
-        if (txtFechaFin.value.trim() !== '') {
-            if (fechaInicio > fechaFin ) {
-                txtDescriptionError.textContent = 'La Fecha Final no puede ser menor a la fecha inicial';
-                return false;
-            }
-        }
-
-        return true;
-    };
+    return true;
+};
     </script>
-
 </asp:Content>
