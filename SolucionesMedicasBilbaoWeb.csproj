@@ -90,18 +90,21 @@
     <Content Include="WebAdmCategory.aspx" />
     <Content Include="WebAdmCustomer.aspx" />
     <Content Include="WebAdmLocation.aspx" />
+    <Content Include="WebAdmProduct.aspx" />
     <Content Include="WebNewLocation.aspx" />
     <Content Include="WebAdmSupplier.aspx" />
     <Content Include="WebAdmUser.aspx" />
     <Content Include="WebLogin.aspx" />
     <Content Include="WebNewCategory.aspx" />
     <Content Include="WebNewCustomer.aspx" />
+    <Content Include="WebNewProduct.aspx" />
     <Content Include="WebNewSupplier.aspx" />
     <Content Include="WebNewUser.aspx" />
     <Content Include="WebReset.aspx" />
     <Content Include="WebUpdateCategory.aspx" />
     <Content Include="WebUpdateCustomer.aspx" />
     <Content Include="WebUpdateLocation.aspx" />
+    <Content Include="WebUpdateProduct.aspx" />
     <Content Include="WebUpdateSupplier.aspx" />
     <Content Include="WebUpdateUser.aspx" />
   </ItemGroup>
@@ -180,6 +183,13 @@
     <Compile Include="WebAdmLocation.aspx.designer.cs">
       <DependentUpon>WebAdmLocation.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebAdmProduct.aspx.cs">
+      <DependentUpon>WebAdmProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmProduct.aspx.designer.cs">
+      <DependentUpon>WebAdmProduct.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebNewLocation.aspx.cs">
       <DependentUpon>WebNewLocation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -222,6 +232,13 @@
     <Compile Include="WebNewCustomer.aspx.designer.cs">
       <DependentUpon>WebNewCustomer.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebNewProduct.aspx.cs">
+      <DependentUpon>WebNewProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebNewProduct.aspx.designer.cs">
+      <DependentUpon>WebNewProduct.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebNewSupplier.aspx.cs">
       <DependentUpon>WebNewSupplier.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -263,6 +280,13 @@
     </Compile>
     <Compile Include="WebUpdateLocation.aspx.designer.cs">
       <DependentUpon>WebUpdateLocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUpdateProduct.aspx.cs">
+      <DependentUpon>WebUpdateProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUpdateProduct.aspx.designer.cs">
+      <DependentUpon>WebUpdateProduct.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebUpdateSupplier.aspx.cs">
       <DependentUpon>WebUpdateSupplier.aspx</DependentUpon>

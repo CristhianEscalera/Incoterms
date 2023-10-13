@@ -1,8 +1,6 @@
 ﻿using iTextSharp.text.pdf;
 using iTextSharp.text;
 using SolucionesMedicasBilbaoDAO;
-using SolucionesMedicasBilbaoDAO.Implementacion;
-using SolucionesMedicasBilbaoDAO.Model;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,10 +11,10 @@ using System.Web.UI.WebControls;
 
 namespace SolucionesMedicasBilbaoWeb
 {
-    public partial class WebAdmCustomer : System.Web.UI.Page
+    public partial class WebAdmProduct : System.Web.UI.Page
     {
-        Customer t;
-        CustomerImpl implCustomer;
+        Product t;
+        ProductImpl implProduct;
         protected void Page_Load(object sender, EventArgs e)
         {
             Select();
@@ -26,8 +24,8 @@ namespace SolucionesMedicasBilbaoWeb
         {
             try
             {
-                implCustomer = new CustomerImpl();
-                gridData.DataSource = implCustomer.Select();
+                implProduct = new ProductImpl();
+                gridData.DataSource = implProduct.Select();
                 gridData.DataBind();
             }
             catch (Exception ex)
@@ -42,10 +40,10 @@ namespace SolucionesMedicasBilbaoWeb
             if (e.CommandName == "Eliminar")
             {
                 int id = Convert.ToInt32(e.CommandArgument);
-                CustomerImpl impl = new CustomerImpl();
+                ProductImpl impl = new ProductImpl();
                 byte ID = Convert.ToByte(id);
-                Customer customer = new Customer(ID);
-                impl.Delete(customer);
+                Product product = new Product(ID);
+                impl.Delete(product);
                 Select();
             }
         }
@@ -56,6 +54,10 @@ namespace SolucionesMedicasBilbaoWeb
             MemoryStream memoryStream = new MemoryStream();
             PdfWriter writer = PdfWriter.GetInstance(pdfDoc, memoryStream);
             pdfDoc.Open();
+
+            BaseFont baseFont = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1252, BaseFont.NOT_EMBEDDED);
+            Font font = new Font(baseFont, 12f);
+
 
             // Agregar el contenido del GridView al PDF
             PdfPTable table = new PdfPTable(gridData.Columns.Count - 1);
@@ -79,10 +81,11 @@ namespace SolucionesMedicasBilbaoWeb
 
             // Descargar el PDF generado
             Response.ContentType = "application/pdf";
-            Response.AddHeader("content-disposition", "attachment;filename=Clientes.pdf");
+            Response.AddHeader("content-disposition", "attachment;filename= Productos.pdf");
             Response.Cache.SetCacheability(HttpCacheability.NoCache);
             Response.BinaryWrite(memoryStream.ToArray());
             Response.End();
         }
+
     }
 }

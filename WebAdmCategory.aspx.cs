@@ -62,7 +62,7 @@ namespace SolucionesMedicasBilbaoWeb
 
 
             // Agregar el contenido del GridView al PDF
-            PdfPTable table = new PdfPTable(gridData.Columns.Count);
+            PdfPTable table = new PdfPTable(gridData.Columns.Count - 1);
             foreach (TableCell cell in gridData.HeaderRow.Cells)
             {
                 PdfPCell pdfCell = new PdfPCell(new Phrase(cell.Text));

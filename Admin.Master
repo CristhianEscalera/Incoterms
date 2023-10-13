@@ -95,7 +95,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="WebAdmProduct.aspx" class="nav-link">
                   <i class="fas fa-cogs nav-icon"></i>
                   <p>Administración Producto</p>
                 </a>
