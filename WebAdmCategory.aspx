@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Ad. Categoria" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="WebAdmCategory.aspx.cs" Inherits="SolucionesMedicasBilbaoWeb.WebAdmCategory" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <!-- DataTables -->
+    
   <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
@@ -32,16 +32,13 @@
           background-color: green;
           color: white;
         }
-        .required {
-          border: 1px solid #ccc;
-        }
-
-        .required.error {
-          border: 1px solid red;
-        }
-        .selected-row {
-          background-color: #ffcc66; /* Color de fondo para la fila seleccionada */
-        }
+        .fixed-headers th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: #f7f7f7; 
+        font-weight: bold; 
+    }
     </style>
 
 </asp:Content>
@@ -74,18 +71,19 @@
         <div class="row">
         <div class="col-md-12">
             <div class="box-body" style="background-color:white;max-height: 450px; overflow-y: auto;" >
-                <asp:GridView ID="gridData" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered table-hover" OnRowCommand="gridData_RowCommand" >
-                    <Columns>
-                        <asp:BoundField DataField="Categoria" HeaderText="Categoria" />
-                        <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" />
-                        <asp:BoundField DataField="Creado en:" HeaderText="Creado en:" />
-                        <asp:TemplateField HeaderText="Acciones">
-                            <ItemTemplate>
-                                <a class="square-button blue-button" href='WebUpdateCategory.aspx?id=<%#Eval("id")%>'><i class="fas fa-pencil-alt"></i></a>
-                                <asp:LinkButton ID="btnEliminar" runat="server" CssClass="square-button red-button" CommandName="Eliminar" CommandArgument='<%# Eval("ID") %>' OnClientClick="return confirm('¿Deseas Eliminarlo?');" Text='<i class="fas fa-trash"></i>'/>
-                            </ItemTemplate>
-                        </asp:TemplateField>
-                    </Columns>
+                <asp:GridView ID="gridData" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered table-hover fixed-header-grid" OnRowCommand="gridData_RowCommand" >
+                    <HeaderStyle CssClass="fixed-headers" />
+                        <Columns>
+                            <asp:BoundField DataField="Categoria" HeaderText="Categoría" />
+                            <asp:BoundField DataField="Descripcion" HeaderText="Descripción" />
+                            <asp:BoundField DataField="Creado en:" HeaderText="Creado en:" />
+                            <asp:TemplateField HeaderText="Acciones">
+                                <ItemTemplate>
+                                    <a class="square-button blue-button" href='WebUpdateCategory.aspx?id=<%#Eval("id")%>'><i class="fas fa-pencil-alt"></i></a>
+                                    <asp:LinkButton ID="btnEliminar" runat="server" CssClass="square-button red-button" CommandName="Eliminar" CommandArgument='<%# Eval("ID") %>' OnClientClick="return confirm('¿Deseas Eliminarlo?');" Text='<i class="fas fa-trash"></i>' />
+                                </ItemTemplate>
+                            </asp:TemplateField>
+                        </Columns>
                 </asp:GridView>
             </div>
         </div>
@@ -97,7 +95,7 @@
     </form>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
-    <!-- DataTables  & Plugins -->
+  
 <script src="plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
 <script src="plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
@@ -110,20 +108,4 @@
 <script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
 <script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
-
-    <!-- Page specific script -->
-<script>
-    $(function () {
-        $('#example2').DataTable({
-            "paging": true,
-            "lengthChange": false,
-            "searching": false,
-            "ordering": true,
-            "info": true,
-            "autoWidth": false,
-            "responsive": true,
-        });
-    });
-</script>
-
 </asp:Content>

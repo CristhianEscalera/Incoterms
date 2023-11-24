@@ -47,13 +47,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
          <div class="col-lg-12 col-12">
                  <div class="Inicio">
-                    <!--Overlay es la pantalla que esta encima del video que es un container negro transparente-->
                     <div class="overlay"></div>
-                    <!--Se pone el valor absoluto a las letras para que este se sobreponga sobre el video-->
                     <div class="absolute">
                         <h1>BIENVENIDO</h1>
                     </div>
-                    <!--Aqui se ingresa el video poniendolo en autoplay y en bucle, ademas de silenciarlo-->
                     <video onloadstart="this.muted=true" autoplay loop>
                         <source src="../../dist/img/inicio.mov">
                     </video>
@@ -63,7 +60,6 @@
          <div class="row">
              
           <div class="col-lg-3 col-6">
-            <!-- small box -->
             <div class="small-box" style="background-color:#699CCC">
               <div class="inner">
                 <h3>157</h3>
@@ -75,9 +71,7 @@
               </div>
             </div>
           </div>
-          <!-- ./col -->
           <div class="col-lg-3 col-6">
-            <!-- small box -->
             <div class="small-box" style="background-color:#699CCC">
               <div class="inner">
                 <h3>2154<sup style="font-size: 20px">Bs</sup></h3>
@@ -89,9 +83,7 @@
               </div>
             </div>
           </div>
-          <!-- ./col -->
           <div class="col-lg-3 col-6">
-            <!-- small box -->
             <div class="small-box" style="background-color:#699CCC">
               <div class="inner">
                 <h3>53<sup style="font-size: 20px">%</sup></h3>
@@ -103,9 +95,7 @@
               </div>
             </div>
           </div>
-          <!-- ./col -->
           <div class="col-lg-3 col-6">
-            <!-- small box -->
             <div class="small-box" style="background-color:#699CCC">
               <div class="inner">
                 <h3>65</h3>
@@ -117,7 +107,6 @@
               </div>
             </div>
           </div>
-          <!-- ./col -->
         </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">

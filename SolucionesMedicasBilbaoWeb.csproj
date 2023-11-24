@@ -1,4 +1,5 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.1.19.4\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props" Condition="Exists('..\packages\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.1.19.4\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -23,6 +24,8 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
+    <DockerLaunchUrl>http://{ServiceIPAddress}</DockerLaunchUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,6 +53,13 @@
       <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.IO" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Security.Cryptography.Algorithms" />
+    <Reference Include="System.Security.Cryptography.Encoding" />
+    <Reference Include="System.Security.Cryptography.Primitives" />
+    <Reference Include="System.Security.Cryptography.X509Certificates" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -87,10 +97,18 @@
     <Content Include="leaflet\leaflet.css" />
     <Content Include="leaflet\leaflet.js" />
     <Content Include="Web.config" />
+    <Content Include="WebAdmBrand.aspx" />
     <Content Include="WebAdmCategory.aspx" />
+    <Content Include="WebAdmCountry.aspx" />
     <Content Include="WebAdmCustomer.aspx" />
+    <Content Include="WebAdmImport.aspx" />
     <Content Include="WebAdmLocation.aspx" />
     <Content Include="WebAdmProduct.aspx" />
+    <Content Include="WebAdmShipper.aspx" />
+    <Content Include="WebAdmStateImport.aspx" />
+    <Content Include="WebNewBrand.aspx" />
+    <Content Include="WebNewCountry.aspx" />
+    <Content Include="WebNewImport.aspx" />
     <Content Include="WebNewLocation.aspx" />
     <Content Include="WebAdmSupplier.aspx" />
     <Content Include="WebAdmUser.aspx" />
@@ -98,13 +116,20 @@
     <Content Include="WebNewCategory.aspx" />
     <Content Include="WebNewCustomer.aspx" />
     <Content Include="WebNewProduct.aspx" />
+    <Content Include="WebNewShipper.aspx" />
+    <Content Include="WebNewStateImport.aspx" />
     <Content Include="WebNewSupplier.aspx" />
     <Content Include="WebNewUser.aspx" />
     <Content Include="WebReset.aspx" />
+    <Content Include="WebUpdateBrand.aspx" />
     <Content Include="WebUpdateCategory.aspx" />
+    <Content Include="WebUpdateCountry.aspx" />
     <Content Include="WebUpdateCustomer.aspx" />
+    <Content Include="WebUpdateImport.aspx" />
     <Content Include="WebUpdateLocation.aspx" />
     <Content Include="WebUpdateProduct.aspx" />
+    <Content Include="WebUpdateShipper.aspx" />
+    <Content Include="WebUpdateStateImport.aspx" />
     <Content Include="WebUpdateSupplier.aspx" />
     <Content Include="WebUpdateUser.aspx" />
   </ItemGroup>
@@ -162,6 +187,13 @@
       <DependentUpon>Login.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebAdmBrand.aspx.cs">
+      <DependentUpon>WebAdmBrand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmBrand.aspx.designer.cs">
+      <DependentUpon>WebAdmBrand.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebAdmCategory.aspx.cs">
       <DependentUpon>WebAdmCategory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -169,12 +201,26 @@
     <Compile Include="WebAdmCategory.aspx.designer.cs">
       <DependentUpon>WebAdmCategory.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebAdmCountry.aspx.cs">
+      <DependentUpon>WebAdmCountry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmCountry.aspx.designer.cs">
+      <DependentUpon>WebAdmCountry.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebAdmCustomer.aspx.cs">
       <DependentUpon>WebAdmCustomer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="WebAdmCustomer.aspx.designer.cs">
       <DependentUpon>WebAdmCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmImport.aspx.cs">
+      <DependentUpon>WebAdmImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmImport.aspx.designer.cs">
+      <DependentUpon>WebAdmImport.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebAdmLocation.aspx.cs">
       <DependentUpon>WebAdmLocation.aspx</DependentUpon>
@@ -189,6 +235,41 @@
     </Compile>
     <Compile Include="WebAdmProduct.aspx.designer.cs">
       <DependentUpon>WebAdmProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmShipper.aspx.cs">
+      <DependentUpon>WebAdmShipper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmShipper.aspx.designer.cs">
+      <DependentUpon>WebAdmShipper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmStateImport.aspx.cs">
+      <DependentUpon>WebAdmStateImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmStateImport.aspx.designer.cs">
+      <DependentUpon>WebAdmStateImport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebNewBrand.aspx.cs">
+      <DependentUpon>WebNewBrand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebNewBrand.aspx.designer.cs">
+      <DependentUpon>WebNewBrand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebNewCountry.aspx.cs">
+      <DependentUpon>WebNewCountry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebNewCountry.aspx.designer.cs">
+      <DependentUpon>WebNewCountry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebNewImport.aspx.cs">
+      <DependentUpon>WebNewImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebNewImport.aspx.designer.cs">
+      <DependentUpon>WebNewImport.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebNewLocation.aspx.cs">
       <DependentUpon>WebNewLocation.aspx</DependentUpon>
@@ -239,6 +320,20 @@
     <Compile Include="WebNewProduct.aspx.designer.cs">
       <DependentUpon>WebNewProduct.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebNewShipper.aspx.cs">
+      <DependentUpon>WebNewShipper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebNewShipper.aspx.designer.cs">
+      <DependentUpon>WebNewShipper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebNewStateImport.aspx.cs">
+      <DependentUpon>WebNewStateImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebNewStateImport.aspx.designer.cs">
+      <DependentUpon>WebNewStateImport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebNewSupplier.aspx.cs">
       <DependentUpon>WebNewSupplier.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -260,6 +355,13 @@
     <Compile Include="WebReset.aspx.designer.cs">
       <DependentUpon>WebReset.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebUpdateBrand.aspx.cs">
+      <DependentUpon>WebUpdateBrand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUpdateBrand.aspx.designer.cs">
+      <DependentUpon>WebUpdateBrand.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebUpdateCategory.aspx.cs">
       <DependentUpon>WebUpdateCategory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -267,12 +369,26 @@
     <Compile Include="WebUpdateCategory.aspx.designer.cs">
       <DependentUpon>WebUpdateCategory.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebUpdateCountry.aspx.cs">
+      <DependentUpon>WebUpdateCountry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUpdateCountry.aspx.designer.cs">
+      <DependentUpon>WebUpdateCountry.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebUpdateCustomer.aspx.cs">
       <DependentUpon>WebUpdateCustomer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="WebUpdateCustomer.aspx.designer.cs">
       <DependentUpon>WebUpdateCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUpdateImport.aspx.cs">
+      <DependentUpon>WebUpdateImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUpdateImport.aspx.designer.cs">
+      <DependentUpon>WebUpdateImport.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebUpdateLocation.aspx.cs">
       <DependentUpon>WebUpdateLocation.aspx</DependentUpon>
@@ -287,6 +403,20 @@
     </Compile>
     <Compile Include="WebUpdateProduct.aspx.designer.cs">
       <DependentUpon>WebUpdateProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUpdateShipper.aspx.cs">
+      <DependentUpon>WebUpdateShipper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUpdateShipper.aspx.designer.cs">
+      <DependentUpon>WebUpdateShipper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUpdateStateImport.aspx.cs">
+      <DependentUpon>WebUpdateStateImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUpdateStateImport.aspx.designer.cs">
+      <DependentUpon>WebUpdateStateImport.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebUpdateSupplier.aspx.cs">
       <DependentUpon>WebUpdateSupplier.aspx</DependentUpon>
@@ -311,6 +441,10 @@
     <Content Include="leaflet\leaflet-src.esm.js.map" />
     <Content Include="leaflet\leaflet-src.js.map" />
     <Content Include="leaflet\leaflet.js.map" />
+    <None Include="Dockerfile" />
+    <None Include=".dockerignore">
+      <DependentUpon>Dockerfile</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -359,7 +493,10 @@
       <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.1.19.4\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.1.19.4\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.1.19.4\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.1.19.4\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets'))" />
   </Target>
+  <Import Project="..\packages\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.1.19.4\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets" Condition="Exists('..\packages\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.1.19.4\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
