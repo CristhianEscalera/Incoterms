@@ -1,8 +1,4 @@
-# Incoterms
-
- 
- 
- 
+#Incoterms
  
 MANUAL TÉCNICO
 Proyecto “INCOTERMS”
@@ -168,8 +164,6 @@ Al ejecutar el programa, se encargará de realizar las operaciones necesarias.
 Ingresa los datos predeterminados en la pantalla de inicio de sesión para acceder y utilizar la página.
 
 Con estos pasos, deberías tener el programa y la base de datos correctamente configurados. Asegúrate de seguir cada paso detalladamente para evitar problemas durante la configuración.
-
-
 7. PROCEDIMIENTOS DE HOSTEADO / HOSTING (configuración)
 •	Sitio Web
 •	BD
@@ -255,20 +249,6 @@ Sistema de Gestión de Bases de Datos (DBMS):
 Microsoft SQL Server 2022
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 15. Bibliografía:
 
 Microsoft. "HttpResponse.Cache Property." https://learn.microsoft.com/en-us/dotnet/api/system.web.httpresponse.cache?view=netframework-4.8.1  
@@ -286,3 +266,4 @@ Stackoverflow. “How to read SQL Table data into a C# DataTable” https://stac
 Stackoverflow. “error with addwithvalue sql parameter” https://stackoverflow.com/questions/38463844/error-with-addwithvalue-sql-parameter 
 Stackoverflow. “La consulta espera el parametro @Nombre que no se ha proporcionado” https://es.stackoverflow.com/questions/32573/la-consulta-espera-el-parametro-nombre-que-no-se-ha-proporcionado 
 Stackoverflow. “Input string was not in a correct format, Drop down list Selected Value.” https://stackoverflow.com/questions/10028046/input-string-was-not-in-a-correct-format-drop-down-list-selected-value
+
