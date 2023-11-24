@@ -145,11 +145,30 @@ Base de Datos: Microsoft SQL Server 2022
 Herramientas Adicionales: Utilice SQL Server Management Studio (SSMS) versión 2022 o posterior para gestionar la base de datos.
 
 6. Instalación y configuración:
-Para la configuración del programa y su uso por ahora se debe de tener tanto la base de datos “DBEquiposMedicos.bak” y el programa web “Bilbao.SolucionesMedicas”. Una vez se tenga ambos programas, inicie SQL Server e inicie la base de datos en este, una vez cargada por temas de seguridad y uso desactive y active la el id de la tabla “Person”.
+1.  Descargar Programas Necesarios:
+Descarga tanto la base de datos "DBEquiposMedicos.bak" como el programa web "Bilbao.SolucionesMedicas".
+2.  Iniciar SQL Server:
+Abre SQL Server e inicia sesión.
+3. Restaurar la Base de Datos:
+Restaura la base de datos desde el archivo "DBEquiposMedicos.bak" en SQL Server.
+4. Activar/Desactivar la Identidad de la Tabla "Person":
+Por razones de seguridad, activa y desactiva la identidad de la tabla "Person" en la base de datos cargada.
 
-Lo siguiente que debe de hacer es abrir el proyecto Bilbao.SolucionesMedicas y en la parte de DAO, se dirige a la carpeta implementaciones y luego al archivo BaseImpl, ahí deberá poner la dirección de su conexión junto a la contraseña de este. Esta dirección la puede encontrar cuando se inicia el programa SQLServer, copia la dirección y deberá colocarla donde dice connectionString en la parte de Server y la contraseña en password.
+5. Abrir Proyecto Bilbao.SolucionesMedicas:
+Abre el proyecto en tu entorno de desarrollo (por ejemplo, Visual Studio).
+6. Configurar Conexión a la Base de Datos:
+En el proyecto, ve a la carpeta "DAO" y luego a "Implementaciones". Abre el archivo "BaseImpl".
+En este archivo, encuentra la sección de conexión (connectionString).
+Copia la dirección del servidor cuando inicies SQL Server y pégala en el campo "Server" de connectionString.
+Coloca la contraseña correspondiente en el campo "Password" de connectionString.
+7. Ejecutar el Programa:
+Guarda los cambios en "BaseImpl" y ejecuta el programa "Bilbao.SolucionesMedicas" desde tu entorno de desarrollo.
+8. Ingresar Datos Predeterminados:
+Al ejecutar el programa, se encargará de realizar las operaciones necesarias.
+Ingresa los datos predeterminados en la pantalla de inicio de sesión para acceder y utilizar la página.
 
-Después de haber realizado todos esto pasos solo haga correr el programa y este realizara todo el trabajo sin problema, recuerde que debe ingresar los datos default en el Login para poder ingresar y usar la página.
+Con estos pasos, deberías tener el programa y la base de datos correctamente configurados. Asegúrate de seguir cada paso detalladamente para evitar problemas durante la configuración.
+
 
 7. PROCEDIMIENTOS DE HOSTEADO / HOSTING (configuración)
 •	Sitio Web
