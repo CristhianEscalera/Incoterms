@@ -141,7 +141,7 @@ Base de Datos: Microsoft SQL Server 2022
 Herramientas Adicionales: Utilice SQL Server Management Studio (SSMS) versión 2022 o posterior para gestionar la base de datos.
 
 6. Instalación y configuración:
-   DESCARGAR TODO DE LA RAMA MAIN(RAMA MAIN)
+   DESCARGAR TODO DE LA RAMA MAIN(RAMA MASTER)
 1.  Descargar Programas Necesarios:
 Descarga tanto la base de datos "DBEquiposMedicos.bak" como el programa web "Bilbao.SolucionesMedicas".
 2.  Iniciar SQL Server:
