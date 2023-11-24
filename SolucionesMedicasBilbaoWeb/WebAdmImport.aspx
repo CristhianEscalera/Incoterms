@@ -31,6 +31,13 @@
          background-color: green;
          color: white;
        }
+       .fixed-headers th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: #f7f7f7; 
+        font-weight: bold; 
+        }
    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -38,7 +45,7 @@
 <div class="form-box">
 
 <section class="content-header">
-    <h1 style="color:white; font-family:Oswald; font-size:30px;">I M P O R T E</h1>
+    <h1 style="color:white; font-family:Oswald; font-size:30px;">I M P O R T A C I Ó N</h1>
 </section>
 
 <section class="content">
@@ -54,7 +61,7 @@
                 <input type="text" id="txtSearch" class="form-control" placeholder="Buscar...">
                 <div class="input-group-append">
                     <button class="btn btn-primary" id="btnSearchTop" onclick="searchData()">Buscar</button>
-                    <button class="btn btn-success" id="btnCreatePDF" onclick="createPDF()">Crear PDF</button>
+                    <asp:Button ID="btnGenerarPDF" runat="server" Text="Generar PDF" OnClick="btnGenerarPDF_Click" CssClass="btn btn-primary" />
                 </div>
             </div>
         </div>
@@ -62,12 +69,12 @@
     <div class="row">
     <div class="col-md-12">
         <div class="box-body" style="background-color:white;max-height: 450px; overflow-y: auto;" >
-            <asp:GridView ID="gridData" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered table-hover" OnRowCommand="gridData_RowCommand" >
+            <asp:GridView ID="gridData" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered table-hover fixed-headers" OnRowCommand="gridData_RowCommand" >
                 <Columns>
-                    <asp:BoundField DataField="Incoterm" HeaderText="Incoterm" />
-                    <asp:BoundField DataField="Fecha Salida" HeaderText="Fecha Salida" />
-                    <asp:BoundField DataField="Fecha Tentativa" HeaderText="Fecha Tentativa" />
-                    <asp:BoundField DataField="Fecha Llegada" HeaderText="Fecha Llegada" />  
+                    <asp:BoundField DataField="Incoterms" HeaderText="Incoterms" />
+                    <asp:BoundField DataField="FechaSalida" HeaderText="Fecha Salida" DataFormatString="{0:yyyy-MM-dd}" ItemStyle-Width="120px" />
+                    <asp:BoundField DataField="FechaTentativa" HeaderText="Fecha Tentativa" DataFormatString="{0:yyyy-MM-dd}" ItemStyle-Width="120px" />
+                    <asp:BoundField DataField="FechaLlegada" HeaderText="Fecha Llegada" DataFormatString="{0:yyyy-MM-dd}" ItemStyle-Width="120px" />
                     <asp:BoundField DataField="Origen" HeaderText="Origen" />
                     <asp:BoundField DataField="Destino" HeaderText="Destino" />
                     <asp:BoundField DataField="Embarcador" HeaderText="Embarcador" />
@@ -75,7 +82,7 @@
                     <asp:BoundField DataField="Creado en:" HeaderText="Creado en:" />
                     <asp:TemplateField HeaderText="Acciones">
                         <ItemTemplate>
-                            <a class="square-button blue-button" href='WebUpdateLocation.aspx?id=<%#Eval("id")%>'><i class="fas fa-pencil-alt"></i></a>
+                            <a class="square-button blue-button" href='WebUpdateImport.aspx?id=<%#Eval("id")%>'><i class="fas fa-pencil-alt"></i></a>
                             <asp:LinkButton ID="btnEliminar" runat="server" CssClass="square-button red-button" CommandName="Eliminar" CommandArgument='<%# Eval("ID") %>' Text='<i class="fas fa-trash"></i>' OnClientClick="return confirm('¿Deseas Eliminarlo?');"/>
                         </ItemTemplate>
                     </asp:TemplateField>
@@ -103,19 +110,4 @@
     <script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
     <script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
     <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
-
-<script>
-    $(function () {
-        $('#example2').DataTable({
-            "paging": true,
-            "lengthChange": false,
-            "searching": false,
-            "ordering": true,
-            "info": true,
-            "autoWidth": false,
-            "responsive": true,
-        });
-    });
-</script>
-
 </asp:Content>

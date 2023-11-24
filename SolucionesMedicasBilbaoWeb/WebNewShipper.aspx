@@ -26,10 +26,8 @@
                 <div class="box-body">
                    <div class="card card-primary">
                       <div class="card-header" style="background-color:#1B425E">
-                        <h3 class="card-title">Administración Proveedor</h3>
+                        <h3 class="card-title">Administración Embarcador</h3>
                       </div>
-                      <!-- /.card-header -->
-                      <!-- form start -->
                       <div class="card-body">
                           <span id="txtError" class="error-message" style="color:red;"></span>
                           <div class="form-group">
