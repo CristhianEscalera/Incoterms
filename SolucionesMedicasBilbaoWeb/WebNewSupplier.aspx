@@ -28,8 +28,6 @@
                   <div class="card-header" style="background-color:#1B425E">
                     <h3 class="card-title">Administración Proveedor</h3>
                   </div>
-                  <!-- /.card-header -->
-                  <!-- form start -->
                   <div class="card-body">
                       <span id="txtError" class="error-message" style="color:red;"></span>
                       <div class="form-group">
@@ -38,17 +36,27 @@
                         </asp:TextBox>
                       </div>
                       <div class="row">
-                          <div class="form-group col-md-6">
+                          <div class="form-group col-md-4">
                             <asp:Label runat="server">Nit</asp:Label>
                             <asp:TextBox ID="txtNit" MaxLength="13" runat="server" class="form-control required"  placeholder="Ingrese NIT" onkeypress="validarNIT(event)" onkeyup="removeExtraSpaces(this);">
                             </asp:TextBox>
                           </div>
                       
-                          <div class="form-group col-md-6">
-                            <asp:Label runat="server">Teléfono</asp:Label>
-                            <asp:TextBox ID="txtTelefono" MaxLength="15" runat="server" class="form-control required"  onkeypress="return validatePhoneNumber(event)" onkeyup="removeExtraSpaces2(this); validateTelefono(this);">
-                            </asp:TextBox>
-                          </div>
+                          <div class="form-group col-md-4">
+                          <asp:Label runat="server">País Codigo</asp:Label>
+                          <asp:DropDownList ID="ddlPais" runat="server" class="form-control">
+                            <asp:ListItem Text="Estados Unidos" Value="+1" />
+                            <asp:ListItem Text="Canadá" Value="+1" />
+                            <asp:ListItem Text="China" Value="+86" />
+                            <asp:ListItem Text="Bolivia" Value="+591" />
+                          </asp:DropDownList>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                          <asp:Label runat="server">Teléfono</asp:Label>
+                          <asp:TextBox ID="txtTelefono" MaxLength="15" runat="server" class="form-control required" onkeypress="return validatePhoneNumber(event)" onkeyup="removeExtraSpaces2(this); validateTelefono(this);">
+                          </asp:TextBox>
+                        </div>
                      </div>
 
                       <div class="form-group">
@@ -102,14 +110,6 @@
              }
          }
 
-         function validarNIT(event) {
-             var keyCode = event.which ? event.which : event.keyCode;
-             var inputValue = String.fromCharCode(keyCode);
-
-             if (!/^\d$|-|\s|K$/i.test(inputValue)) {
-                 event.preventDefault();
-             }
-         }
          function disallowSpaces(event) {
              var key = event.key;
 
@@ -129,21 +129,12 @@
              textInput.value = textInput.value.replace(/^\s+|\s+$/g, '');
          }
      </script>
-    <script>
-        function validateNIT(event) {
-            var key = event.key;
-            var allowedCharacters = /[0-9kK ]/;
-
-            if (!allowedCharacters.test(key)) {
-                event.preventDefault();
-            }
-        }
+    <script>       
 
         function validatePhoneNumber(event) {
             var keyCode = event.which ? event.which : event.keyCode;
             var inputValue = String.fromCharCode(keyCode);
 
-            // Solo permitir números y el signo "+" al principio
             if (!/^\d$|\+$|\s$/.test(inputValue)) {
                 event.preventDefault();
             }
@@ -200,7 +191,7 @@
 
             if (txtNit.value.trim() === '') {
                 txtNit.classList.remove('error');
-            } else if (txtNit.value.trim().length <= 13) {
+            } else if (txtNit.value.trim().length <= 7) {
                 txtNit.classList.add('error');
                 txtDescriptionError.textContent = 'Ingrese correctamente el NIT';
                 return false; 

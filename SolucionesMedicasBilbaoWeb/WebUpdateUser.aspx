@@ -28,8 +28,6 @@
                   <div class="card-header" style="background-color:#1B425E">
                     <h3 class="card-title">Administración Usuarios</h3>
                   </div>
-                  <!-- /.card-header -->
-                  <!-- form start -->
                   <div class="card-body">
                       <span id="txtError" class="error-message" style="color:red;"></span>
                       <div class="form-group">
@@ -54,18 +52,20 @@
                             </asp:TextBox>
                           </div>
                      </div>
-                      <div class="form-group">
-                        <asp:Label runat="server">Rol</asp:Label>
-                        <asp:DropDownList ID="Rol" runat="server" class="form-control">
-                            <asp:ListItem Text="Administrador" Value="Administrador"></asp:ListItem>
-                            <asp:ListItem Text="Empleado" Value="Empleado"></asp:ListItem>
-                            <asp:ListItem Text="Ingresos" Value="Ingresos"></asp:ListItem>
-                        </asp:DropDownList>
-                      </div>
-                     <div class="form-group col-md-6">
-                            <asp:Label runat="server">Ci</asp:Label>
-                            <asp:TextBox ID="txtCi" MaxLength="15" runat="server" class="form-control required"  placeholder="Ingrese CI" onkeypress="validarCI(event)" onkeyup="removeExtraSpaces(this);">
-                            </asp:TextBox>
+                      <div class="row">
+                      <div class="form-group col-md-6"">
+                            <asp:Label runat="server">Rol</asp:Label>
+                            <asp:DropDownList ID="Rol" runat="server" class="form-control">
+                                <asp:ListItem Text="Administrador" Value="Administrador"></asp:ListItem>
+                                <asp:ListItem Text="Empleado" Value="Empleado"></asp:ListItem>
+                                <asp:ListItem Text="Ingresos" Value="Ingresos"></asp:ListItem>
+                            </asp:DropDownList>
+                          </div>
+                         <div class="form-group col-md-6">
+                                <asp:Label runat="server">Ci</asp:Label>
+                                <asp:TextBox ID="txtCi" MaxLength="15" runat="server" class="form-control required"  placeholder="Ingrese CI" onkeypress="validarCI(event)" onkeyup="removeExtraSpaces(this);">
+                                </asp:TextBox>
+                          </div>
                       </div>
                       <div class="form-group">
                         <asp:Label runat="server">Email</asp:Label>
@@ -73,8 +73,6 @@
                         </asp:TextBox>
                       </div>
                     </div>
-                    <!-- /.card-body -->
-
                     <div class="card-footer">
                      <asp:Button ID="btnModificar" Text="Modificar" runat="server" CssClass="btn btn-block btn-info btn-lg"  OnClick="btnModificar_Click"/>
                         <a class="btn btn-block btn-info btn-lg" href='WebAdmUser.aspx'>Cancelar</a>
@@ -95,7 +93,6 @@
                           var keyCode = event.which ? event.which : event.keyCode;
                           var inputValue = String.fromCharCode(keyCode);
 
-                          // Permitir números, espacios, guiones y letras mayúsculas
                           if (!/^\d|\s|-|[A-Z]$/.test(inputValue)) {
                               event.preventDefault();
                           }
@@ -113,7 +110,6 @@
                           var keyCode = event.which ? event.which : event.keyCode;
                           var inputValue = String.fromCharCode(keyCode);
 
-                          // Solo permitir números, guion "-", espacios y la letra "K" mayúscula
                           if (!/^\d$|-|\s|K$/i.test(inputValue)) {
                               event.preventDefault();
                           }
@@ -123,7 +119,6 @@
                           var keyCode = event.which ? event.which : event.keyCode;
                           var inputValue = String.fromCharCode(keyCode);
 
-                          // Solo permitir números y el signo "+" al principio
                           if (!/^\d$|\+$/.test(inputValue)) {
                               event.preventDefault();
                           }
@@ -133,10 +128,8 @@
                           var key = event.keyCode || event.which;
                           var keyChar = String.fromCharCode(key);
 
-                          // Expresión regular para permitir letras con tilde y la letra "ñ"
                           var regex = /^[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ\s]*$/;
 
-                          // Verifica si la tecla presionada es una letra con tilde, la letra "ñ" o un espacio
                           if (!regex.test(keyChar)) {
                               event.preventDefault();
                               return false;
@@ -171,7 +164,6 @@
                 }
 
 
-                // Función para validar el formato de correo electrónico
                 function validateEmail(email) {
                     var emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
                     return emailRegex.test(email);
@@ -181,41 +173,39 @@
                 if (txtUser.value.trim() === '' || UserValue.length < 3) {
                     txtUser.classList.add('error');
                     txtDescriptionError.textContent = 'Ingrese el nombre de usuario';
-                    return false; // Evitar el envío del formulario
+                    return false; 
                 }
 
-                // Verificar si los campos requeridos están vacíos
                 if (txtName.value.trim() === '') {
                     txtName.classList.add('error');
                     txtDescriptionError.textContent = 'Ingrese Nombres';
-                    return false; // Evitar el envío del formulario
+                    return false; 
                 }
 
                 if (txtD.value.trim() === '') {
                     txtD.classList.add('error');
                     txtDescriptionError.textContent = 'Ingrese el primer apellido';
-                    return false; // Evitar el envío del formulario
+                    return false; 
                 }
 
                 if (txtCi.value.trim() === '') {
                     txtCi.classList.add('error');
                     txtDescriptionError.textContent = 'Ingrese correctamente el CI';
-                    return false; // Evitar el envío del formulario
+                    return false;
                 } else if (!verificarCI(txtCi.value.trim())) {
                     txtCi.classList.add('error');
                     txtDescriptionError.textContent = 'Ingrese un CI válido';
-                    return false; // Evitar el envío del formulario
+                    return false; 
                 }
 
-                // Validar el formato del correo electrónico
                 if (txtCampo1.value.trim() === '') {
                     txtCampo1.classList.add('error');
                     txtDescriptionError.textContent = 'Ingrese su correo electrónico';
-                    return false; // Evitar el envío del formulario
+                    return false; 
                 } else if (!validateEmail(txtCampo1.value.trim())) {
                     txtCampo1.classList.add('error');
                     txtDescriptionError.textContent = 'Ingrese un correo electrónico válido';
-                    return false; // Evitar el envío del formulario
+                    return false; 
                 }
             };
 

@@ -22,7 +22,7 @@ namespace SolucionesMedicasBilbaoWeb
         {
             try
             {
-                t = new Supplier(txtNit.Text.Trim(), txtName.Text.Trim(), txtDireccion.Text.Trim(), txtTelefono.Text.Trim(), txtSitioWeb.Text.Trim());
+                t = new Supplier(txtNit.Text.Trim(), txtName.Text.Trim(), txtDireccion.Text.Trim(), ddlPais.SelectedValue+ " " + txtTelefono.Text.Trim(), txtSitioWeb.Text.Trim());
                 implSupplier = new SupplierImpl();
                 int n = implSupplier.Insert(t);
                 if (n > 0)
