@@ -173,7 +173,8 @@ Con estos pasos, deberías tener el programa y la base de datos correctamente co
 El siguiente error es del dockerizado, al momento de ejecutar el dockerizado nos sale ese error que fuimos tratando de solucionar, hasta ahora seguimos sin poder solucionarlo.
 
 8. GIT:
-   https://github.com/CristhianEscalera/Incoterms 
+   https://github.com/CristhianEscalera/Incoterms
+   
 Fabiana Bilbao
  
 Nicole Herbas
