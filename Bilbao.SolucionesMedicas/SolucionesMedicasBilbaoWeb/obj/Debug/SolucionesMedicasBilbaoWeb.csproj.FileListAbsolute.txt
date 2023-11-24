@@ -1,0 +1,753 @@
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Console.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.AssemblyReference.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CopyComplete
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Console.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.AssemblyReference.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CopyComplete
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb3\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.pdb
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll.config
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.pdb
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe.config
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.rsp
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe.config
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.rsp
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.AppContext.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Console.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Http.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Sockets.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.ValueTuple.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe.config
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.rsp
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.pdb
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.AssemblyReference.cache
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CoreCompileInputs.cache
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CopyComplete
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.dll
+D:\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Console.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.AssemblyReference.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CopyComplete
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicas23MOD\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Console.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.AssemblyReference.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CopyComplete
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(25)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.pdb
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll.config
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.pdb
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe.config
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.rsp
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe.config
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.rsp
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.AppContext.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Console.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Http.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Sockets.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.ValueTuple.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe.config
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.rsp
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.pdb
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.AssemblyReference.cache
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CoreCompileInputs.cache
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CopyComplete
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.pdb
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\BouncyCastle.Crypto.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.xml
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll.config
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe.config
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.rsp
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe.config
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.rsp
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.AppContext.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Console.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe.config
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.rsp
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\BouncyCastle.Crypto.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.xml
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.AssemblyReference.cache
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CoreCompileInputs.cache
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CopyComplete
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.dll
+C:\Users\usuariocc\Downloads\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Console.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\BouncyCastle.Crypto.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.xml
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.AssemblyReference.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CopyComplete
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(35)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.pdb
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll.config
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.pdb
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe.config
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.rsp
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe.config
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.rsp
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.AppContext.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Console.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Http.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Sockets.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.ValueTuple.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe.config
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.rsp
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\BouncyCastle.Crypto.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.pdb
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.xml
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.AssemblyReference.cache
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CoreCompileInputs.cache
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CopyComplete
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.dll
+D:\Proyectos U\Proyecto de sistemas I\implementar codigo\implementar Ult\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Console.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.rsp
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\BouncyCastle.Crypto.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.xml
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.AssemblyReference.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CoreCompileInputs.cache
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CopyComplete
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Edgar Bilbao Rocha\Downloads\Bilbao.SolucionesMedicasWeb(39)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll.config
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe.config
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.rsp
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe.config
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.rsp
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Console.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe.config
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.rsp
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\BouncyCastle.Crypto.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.xml
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.AssemblyReference.cache
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CopyComplete
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Dell\Downloads\Bilbao.SolucionesMedicasWeb(40)\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll.config
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoWeb.pdb
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.exe.config
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csc.rsp
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.exe.config
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\csi.rsp
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Console.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.exe.config
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\vbc.rsp
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\BouncyCastle.Crypto.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\SolucionesMedicasBilbaoDAO.pdb
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\itextsharp.xml
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.csproj.CopyComplete
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.dll
+C:\Users\Dell\Desktop\Incoterms\Bilbao.SolucionesMedicas\SolucionesMedicasBilbaoWeb\obj\Debug\SolucionesMedicasBilbaoWeb.pdb
