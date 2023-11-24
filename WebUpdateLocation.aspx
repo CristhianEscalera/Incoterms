@@ -27,8 +27,6 @@
                   <div class="card-header" style="background-color:#1B425E">
                     <h3 class="card-title">Administración Dirección</h3>
                   </div>
-                  <!-- /.card-header -->
-                  <!-- form start -->
                    <div class="card-body">
                         <span id="txtError" class="error-message" style="color:red;"></span>
                         <div class="form-group">
@@ -66,7 +64,6 @@
                             <div id="map" style="width: 100%; height: 300px;"></div>
                         </div>
                     </div>
-                    <!-- /.card-body -->
 
                     <div class="card-footer">
                             <asp:Button ID="btnModificar" Text="Modificar" runat="server" CssClass="btn btn-block btn-info btn-lg"  OnClick="btnModificar_Click"/>
@@ -84,27 +81,22 @@
 
 
     <script>
-        // Código JavaScript para inicializar el mapa
-        var map = L.map('map').setView([-17.4136, -66.1653], 13); // Centra el mapa en Bolivia y establece el nivel de zoom
+        
+        var map = L.map('map').setView([-17.4136, -66.1653], 13); 
 
-        // Carga y muestra el mapa de teselas (tiles) utilizando una fuente gratuita, como OpenStreetMap
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: 'Map data © OpenStreetMap contributors'
         }).addTo(map);
 
-        // Crea un marcador para la ubicación actual
-        var marker = L.marker([-17.4136, -66.1653]).addTo(map); // Aquí puedes especificar las coordenadas de la ubicación actual
+        var marker = L.marker([-17.4136, -66.1653]).addTo(map);
 
-        // Actualiza la ubicación y el nombre del lugar al hacer clic en el mapa
         map.on('click', function (e) {
-            var latitud = e.latlng.lat.toFixed(6); // Obtiene la latitud con 6 decimales
-            var longitud = e.latlng.lng.toFixed(6); // Obtiene la longitud con 6 decimales
+            var latitud = e.latlng.lat.toFixed(6); 
+            var longitud = e.latlng.lng.toFixed(6); 
 
-            // Actualiza los valores de los campos de texto
             document.getElementById('<%= hdnLatitud.ClientID %>').value = latitud;
         document.getElementById('<%= hdnLongitud.ClientID %>').value = longitud;
 
-        // Realiza una solicitud de geocodificación inversa para obtener el nombre del lugar
         var url = 'https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=' + latitud + '&lon=' + longitud;
 
         fetch(url, {
@@ -125,11 +117,9 @@
                 console.error('Error al obtener el nombre del lugar', error);
             });
 
-        // Mueve el marcador a la nueva ubicación
         marker.setLatLng(e.latlng);
     });
 
-      // Carga los valores iniciales en el mapa al cargar la página
      var initialLatitud = document.getElementById('<%= hdnLatitud.ClientID %>').value;
     var initialLongitud = document.getElementById('<%= hdnLongitud.ClientID %>').value;
     var initialNombreLugar = document.getElementById('<%= txtNombreLugar.ClientID %>').value;
@@ -152,7 +142,6 @@
             var keyCode = event.which ? event.which : event.keyCode;
             var inputValue = String.fromCharCode(keyCode);
 
-            // Solo permitir números
             if (!/^\d$/.test(inputValue)) {
                 event.preventDefault();
             }
@@ -162,10 +151,8 @@
             var key = event.keyCode || event.which;
             var keyChar = String.fromCharCode(key);
 
-            // Expresión regular para permitir letras con tilde y la letra "ñ"
             var regex = /^[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ\s]*$/;
 
-            // Verifica si la tecla presionada es una letra con tilde, la letra "ñ" o un espacio
             if (!regex.test(keyChar)) {
                 event.preventDefault();
                 return false;
@@ -196,33 +183,32 @@
             var txtlatitud = document.getElementById('<%= hdnLongitud.ClientID %>');
             var txtDescriptionError = document.getElementById('txtError');
 
-            // Verificar si los campos requeridos están vacíos
             if (txtName.value.trim() === '') {
                 txtName.classList.add('error');
                 txtDescriptionError.textContent = 'Ingrese Dirección';
-                return false; // Evitar el envío del formulario
+                return false; 
             }
 
             if (txtNum.value.trim() === '') {
                 txtNum.classList.add('error');
                 txtDescriptionError.textContent = 'Ingrese numero  de  casa';
-                return false; // Evitar el envío del formulario
+                return false; 
             } else if (txtNum.value.trim().length <= 2) {
                 txtNum.classList.add('error');
                 txtDescriptionError.textContent = 'Ingrese numero de casa valido';
-                return false; // Evitar el envío del formulario
+                return false; 
             }
 
             if (txtlongitud.value.trim() === '') {
                 txtlongitud.classList.add('error');
                 txtDescriptionError.textContent = 'Seleccione  una  dirección en el mapa';
-                return false; // Evitar el envío del formulario
+                return false; 
             }
 
             if (txtlatitud.value.trim() === '') {
                 txtlatitud.classList.add('error');
                 txtDescriptionError.textContent = 'Seleccione  una  dirección en el mapa';
-                return false; // Evitar el envío del formulario
+                return false; 
             }
         };
 

@@ -29,14 +29,12 @@
           background-color: green;
           color: white;
         }
-        .required {
-          border: 1px solid #ccc;
-        }
-        .required.error {
-          border: 1px solid red;
-        }
-        .selected-row {
-          background-color: #ffcc66; /* Color de fondo para la fila seleccionada */
+        .fixed-headers th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: #f7f7f7; 
+        font-weight: bold; 
         }
     </style>
 </asp:Content>
@@ -69,7 +67,7 @@
         <div class="row">
         <div class="col-md-12">
             <div class="box-body" style="background-color:white;max-height: 450px; width:100%; overflow-y: auto; overflow-x: auto;" >
-                <asp:GridView ID="gridData" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered table-hover" OnRowCommand="gridData_RowCommand">
+                <asp:GridView ID="gridData" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered table-hover fixed-headers" OnRowCommand="gridData_RowCommand">
                     <Columns>
                         <asp:BoundField DataField="CI" HeaderText="CI" />
                         <asp:BoundField DataField="Nombres" HeaderText="Nombres" />
@@ -108,19 +106,4 @@
 <script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
 <script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
-
-    <!-- Page specific script -->
-<script>
-    $(function () {
-        $('#example2').DataTable({
-            "paging": true,
-            "lengthChange": false,
-            "searching": false,
-            "ordering": true,
-            "info": true,
-            "autoWidth": false,
-            "responsive": true,
-        });
-    });
-</script>
 </asp:Content>

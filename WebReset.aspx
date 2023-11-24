@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="Reset" Language="C#" MasterPageFile="~/Login.Master" AutoEventWireup="true" CodeBehind="WebReset.aspx.cs" Inherits="SolucionesMedicasBilbaoWeb.WebReset" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-    <!-- Font Awesome -->
+   
     <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
-    <!-- Theme style -->
+   
     <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
     <link rel="stylesheet" href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
 
@@ -24,7 +24,6 @@
   <div class="login-logo">
     <img src="../../dist/img/capture.png" width="200">
   </div>
-  <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
         <span id="txtError" class="error-message" runat="server"></span>
@@ -60,16 +59,15 @@
           <asp:Button ID="btnCancelar" Text="Cancelar" runat="server" CssClass="btn btn-block btn-info"  OnClick="btnCancelar_Click"/>
       </div>
     </div>
-    <!-- /.login-card-body -->
   </div>
 </div>
  </form>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
     <script src="../../plugins/jquery/jquery.min.js"></script>
-    <!-- Bootstrap 4 -->
+   
     <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- AdminLTE App -->
+   
     <script src="../../dist/js/adminlte.min.js"></script>
 
     <script>
@@ -82,7 +80,7 @@
             if (txtPassword.value.trim() === '') {
                 txtPassword.classList.add('error');
                 txtDescriptionError.textContent = 'Ingrese su Contraseña';
-                return false; // Evitar el envío del formulario
+                return false; 
             }
         };
     </script>

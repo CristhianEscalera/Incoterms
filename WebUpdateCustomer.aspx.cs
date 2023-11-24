@@ -13,8 +13,6 @@ namespace SolucionesMedicasBilbaoWeb
     public partial class WebUpdateCustomer : System.Web.UI.Page
     {
         public byte id;
-        CustomerImpl impl2;
-        Customer user2;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -31,7 +29,6 @@ namespace SolucionesMedicasBilbaoWeb
                 txtPhone.Text = cus.Telefono;
                 txtTitulo.Text = cus.Titulos;
             }
-
         }
 
 

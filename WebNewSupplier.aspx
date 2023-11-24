@@ -28,8 +28,6 @@
                   <div class="card-header" style="background-color:#1B425E">
                     <h3 class="card-title">Administración Proveedor</h3>
                   </div>
-                  <!-- /.card-header -->
-                  <!-- form start -->
                   <div class="card-body">
                       <span id="txtError" class="error-message" style="color:red;"></span>
                       <div class="form-group">
@@ -38,17 +36,27 @@
                         </asp:TextBox>
                       </div>
                       <div class="row">
-                          <div class="form-group col-md-6">
+                          <div class="form-group col-md-4">
                             <asp:Label runat="server">Nit</asp:Label>
-                            <asp:TextBox ID="txtNit" MaxLength="30" runat="server" class="form-control required"  placeholder="Ingrese NIT" onkeypress="validarNIT(event)" onkeyup="removeExtraSpaces(this);">
+                            <asp:TextBox ID="txtNit" MaxLength="13" runat="server" class="form-control required"  placeholder="Ingrese NIT" onkeypress="validarNIT(event)" onkeyup="removeExtraSpaces(this);">
                             </asp:TextBox>
                           </div>
                       
-                          <div class="form-group col-md-6">
-                            <asp:Label runat="server">Teléfono</asp:Label>
-                            <asp:TextBox ID="txtTelefono" MaxLength="15" runat="server" class="form-control required"  onkeypress="return validatePhoneNumber(event)" onkeyup="removeExtraSpaces2(this); validateTelefono(this);">
-                            </asp:TextBox>
-                          </div>
+                          <div class="form-group col-md-4">
+                          <asp:Label runat="server">País Codigo</asp:Label>
+                          <asp:DropDownList ID="ddlPais" runat="server" class="form-control">
+                            <asp:ListItem Text="Estados Unidos" Value="+1" />
+                            <asp:ListItem Text="Canadá" Value="+1" />
+                            <asp:ListItem Text="China" Value="+86" />
+                            <asp:ListItem Text="Bolivia" Value="+591" />
+                          </asp:DropDownList>
+                        </div>
+
+                        <div class="form-group col-md-4">
+                          <asp:Label runat="server">Teléfono</asp:Label>
+                          <asp:TextBox ID="txtTelefono" MaxLength="15" runat="server" class="form-control required" onkeypress="return validatePhoneNumber(event)" onkeyup="removeExtraSpaces2(this); validateTelefono(this);">
+                          </asp:TextBox>
+                        </div>
                      </div>
 
                       <div class="form-group">
@@ -62,8 +70,6 @@
                         </asp:TextBox>
                       </div>
                     </div>
-                    <!-- /.card-body -->
-
                     <div class="card-footer">
                       <asp:Button ID="btnInsert" Text="Insertar" runat="server" CssClass="btn btn-block btn-info btn-lg"  OnClick="btnInsertar_Click"/>
                         <a class="btn btn-block btn-info btn-lg" href='WebAdmSupplier.aspx'>Cancelar</a>
@@ -99,22 +105,11 @@
 
              if (telefono.length < minCaracteres) {
                  textbox.style.borderColor = 'red';
-                 // Puedes mostrar un mensaje de error o realizar otras acciones según tus necesidades
              } else {
                  textbox.style.borderColor = '';
-                 // Si el valor es válido, puedes realizar acciones adicionales aquí
              }
          }
 
-         function validarNIT(event) {
-             var keyCode = event.which ? event.which : event.keyCode;
-             var inputValue = String.fromCharCode(keyCode);
-
-             // Solo permitir números, guion "-", espacios y la letra "K" mayúscula
-             if (!/^\d$|-|\s|K$/i.test(inputValue)) {
-                 event.preventDefault();
-             }
-         }
          function disallowSpaces(event) {
              var key = event.key;
 
@@ -134,21 +129,12 @@
              textInput.value = textInput.value.replace(/^\s+|\s+$/g, '');
          }
      </script>
-    <script>
-        function validateNIT(event) {
-            var key = event.key;
-            var allowedCharacters = /[0-9kK ]/;
-
-            if (!allowedCharacters.test(key)) {
-                event.preventDefault();
-            }
-        }
+    <script>       
 
         function validatePhoneNumber(event) {
             var keyCode = event.which ? event.which : event.keyCode;
             var inputValue = String.fromCharCode(keyCode);
 
-            // Solo permitir números y el signo "+" al principio
             if (!/^\d$|\+$|\s$/.test(inputValue)) {
                 event.preventDefault();
             }
@@ -156,14 +142,14 @@
 
         function removeExtraSpaces2(element) {
             var phoneNumber = element.value.trim();
-            var phoneNumberWithoutExtraSpaces = phoneNumber.replace(/\s{2,}/g, ' '); // Reemplazar espacios consecutivos por un solo espacio
-            var phoneNumberPattern = /^(\+)?(\d|\s)*$/; // Expresión regular para validar números de teléfono con un signo "+" opcional al principio y espacios en blanco
+            var phoneNumberWithoutExtraSpaces = phoneNumber.replace(/\s{2,}/g, ' '); 
+            var phoneNumberPattern = /^(\+)?(\d|\s)*$/; 
 
             if (!phoneNumberPattern.test(phoneNumberWithoutExtraSpaces)) {
                 element.classList.add('error');
             } else {
                 element.classList.remove('error');                      
-                element.value = phoneNumberWithoutExtraSpaces; // Actualizar el valor del campo de texto sin espacios adicionales
+                element.value = phoneNumberWithoutExtraSpaces;
             }
         }
     </script>
@@ -176,38 +162,23 @@
             var txtNit = document.getElementById('<%= txtNit.ClientID %>');
             var txtDescriptionError = document.getElementById('txtError');
 
-
-            function valNit(nit) {
-                var nd, add = 0;
-                if (nd = /^(\d+)\-?([\dk])$/i.exec(nit)) {
-                    nd[2] = (nd[2].toLowerCase() == 'k') ? 10 : parseInt(nd[2]);
-                    for (var i = 0; i < nd[1].length; i++) {
-                        add += (((i - nd[1].length) * -1) + 1) * nd[1][i];
-                    }
-                    return ((11 - (add % 11)) % 11) == nd[2];
-                } else {
-                    return false;
-                }
-            }
-
-            // Verificar si los campos requeridos están vacíos
             if (txtName.value.trim() === '') {
                 txtName.classList.add('error');
                 txtDescriptionError.textContent = 'Ingrese Nombres';
-                return false; // Evitar el envío del formulario  
+                return false; 
             }
 
             if (txtDireccion.value.trim() === '') {   
                 txtDireccion.classList.add('error');        
                 txtDescriptionError.textContent = 'Ingrese una dirección';
-                return false; // Evitar el envío del formulario 
+                return false; 
             }
 
             var telefonoValue = txtTelefono.value.trim();
             if (telefonoValue === '' || telefonoValue.length < 7) {
                 txtTelefono.classList.add('error');
                 txtDescriptionError.textContent = 'Ingrese un teléfono valido';
-                return false; // Evitar el envío del formulario
+                return false; 
             }
 
             if (txtCampo1.value.trim() === '') {
@@ -215,20 +186,16 @@
             } else if (txtCampo1.value.trim().length < 10) {
                 txtCampo1.classList.add('error');
                 txtDescriptionError.textContent = 'Ingrese un Sitio Web  valido';
-                return false; // Evitar el envío del formulario
+                return false; 
             }
 
             if (txtNit.value.trim() === '') {
                 txtNit.classList.remove('error');
-            } else if (txtNit.value.trim() === '') {
+            } else if (txtNit.value.trim().length <= 7) {
                 txtNit.classList.add('error');
                 txtDescriptionError.textContent = 'Ingrese correctamente el NIT';
-                return false; // Evitar el envío del formulario
-            } else if (!valNit(txtNit.value.trim())) {
-                txtNit.classList.add('error');
-                txtDescriptionError.textContent = 'Ingrese un NIT válido';
-                return false; // Evitar el envío del formulario
-            }
+                return false; 
+            } 
         };
 
     </script>

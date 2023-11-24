@@ -50,7 +50,6 @@ namespace SolucionesMedicasBilbaoWeb
 
             try
             {
-
                 id = byte.Parse(Request["id"]);
 
                 string selectedValue = cmbMunicipalidad.SelectedValue;

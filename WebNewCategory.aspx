@@ -28,8 +28,6 @@
                   <div class="card-header" style="background-color:#1B425E">
                     <h3 class="card-title">Administracion Categoría</h3>
                   </div>
-                  <!-- /.card-header -->
-                  <!-- form start -->
                   <div class="card-body">
                       <span id="txtError" class="error-message" style="color:red;"></span>
                       <div class="form-group">
@@ -42,7 +40,6 @@
                         <asp:TextBox ID="txtDescription" MaxLength="80" runat="server" class="form-control required" placeholder="Ingrese descripción" onkeypress="return validateTextInput(event)" onkeyup="removeExtraSpaces(this)" onblur="validateSpaces(this)"></asp:TextBox>
                       </div>
                     </div>
-                    <!-- /.card-body -->
 
                     <div class="card-footer">
                         <asp:Button ID="btnInsert" Text="Insertar" runat="server" CssClass="btn btn-block btn-info btn-lg"  OnClick="btnInsertar_Click"/>
@@ -71,7 +68,6 @@
 <script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 
-    <!-- Page specific script -->
 <script>
     $(function () {
         $('#example2').DataTable({
@@ -91,10 +87,8 @@
             var key = event.keyCode || event.which;
             var keyChar = String.fromCharCode(key);
 
-            // Expresión regular para permitir letras con tilde y la letra "ñ"
             var regex = /^[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ\s]*$/;
 
-            // Verifica si la tecla presionada es una letra con tilde, la letra "ñ" o un espacio
             if (!regex.test(keyChar)) {
                 event.preventDefault();
                 return false;
@@ -119,17 +113,16 @@
             var txtDescription = document.getElementById('<%= txtDescription.ClientID %>');
             var txtDescriptionError = document.getElementById('txtError');
 
-            // Verificar si los campos requeridos están vacíos
             if (txtName.value.trim() === '') {
                 txtName.classList.add('error');
                 txtDescriptionError.textContent = 'Ingrese Nombre de la categoría';
-                return false; // Evitar el envío del formulario
+                return false; 
             }
 
             if (txtDescription.value.trim() === '') {
                 txtDescription.classList.add('error');
                 txtDescriptionError.textContent = 'Ingrese una descripción';
-                return false; // Evitar el envío del formulario
+                return false; 
             }
         };
 

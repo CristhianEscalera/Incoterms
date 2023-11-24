@@ -10,9 +10,6 @@
         .required.error {
           border: 1px solid red;
         }
-        .selected-row {
-          background-color: #ffcc66; /* Color de fondo para la fila seleccionada */
-        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -31,8 +28,6 @@
                   <div class="card-header" style="background-color:#1B425E">
                     <h3 class="card-title">Administración Categoría</h3>
                   </div>
-                  <!-- /.card-header -->
-                  <!-- form start -->
                   <div class="card-body">
                       <div class="form-group">
                         <asp:Label runat="server">Nombre</asp:Label>
@@ -44,7 +39,6 @@
                         <asp:TextBox ID="txtDescription" MaxLength="80" runat="server" class="form-control required" placeholder="Ingrese descripción" onkeypress="return validateTextInput(event)" onkeyup="removeExtraSpaces(this)" onblur="validateSpaces(this)"></asp:TextBox>
                       </div>
                     </div>
-                    <!-- /.card-body -->
 
                     <div class="card-footer">
                         <asp:Button ID="btnModificar" Text="Modificar" runat="server" CssClass="btn btn-block btn-info btn-lg"  OnClick="btnModificar_Click"/>
@@ -60,7 +54,7 @@
     </form>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
-        <!-- DataTables  & Plugins -->
+      
 <script src="plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
 <script src="plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
@@ -74,7 +68,6 @@
 <script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 
-    <!-- Page specific script -->
 <script>
     $(function () {
         $('#example2').DataTable({
@@ -94,10 +87,10 @@
             var key = event.keyCode || event.which;
             var keyChar = String.fromCharCode(key);
 
-            // Expresión regular para permitir letras con tilde y la letra "ñ"
+            
             var regex = /^[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ\s]*$/;
 
-            // Verifica si la tecla presionada es una letra con tilde, la letra "ñ" o un espacio
+            
             if (!regex.test(keyChar)) {
                 event.preventDefault();
                 return false;
@@ -121,15 +114,15 @@
             var txtName = document.getElementById('<%= txtName.ClientID %>');
             var txtDescription = document.getElementById('<%= txtDescription.ClientID %>');
 
-            // Verificar si los campos requeridos están vacíos
+            
             if (txtName.value.trim() === '') {
                 txtName.classList.add('error');
-                return false; // Evitar el envío del formulario
+                return false; 
             }
 
             if (txtDescription.value.trim() === '') {
                 txtDescription.classList.add('error');
-                return false; // Evitar el envío del formulario
+                return false; 
             }
         };
 

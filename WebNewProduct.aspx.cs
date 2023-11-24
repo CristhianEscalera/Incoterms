@@ -1,6 +1,4 @@
 ﻿using SolucionesMedicasBilbaoDAO;
-using SolucionesMedicasBilbaoDAO.Implementacion;
-using SolucionesMedicasBilbaoDAO.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +16,7 @@ namespace SolucionesMedicasBilbaoWeb
         {
             if (!IsPostBack)
             {
-                productImp= new ProductImpl();
+                productImp = new ProductImpl();
                 cmbBrand.DataSource = productImp.CargarCombo().DefaultView;
 
                 cmbBrand.DataTextField = "Name";
@@ -41,7 +39,7 @@ namespace SolucionesMedicasBilbaoWeb
                 string selectedValue2 = cmbCategory.SelectedValue;
                 int id2 = Convert.ToInt32(selectedValue2);
 
-                t = new Product(txtName.Text.Trim(),double.Parse(txtBasePrice.Text.Trim()),int.Parse(TxtStock.Text.Trim()),TxtMeasureUnit.Text.Trim(),TxtModel.Text.Trim(),id,id2);
+                t = new Product(txtName.Text.Trim(), double.Parse(txtPrecio.Text.Trim()), int.Parse(TxtStock.Text.Trim()), TxtMeasureUnit.Text.Trim(), TxtModel.Text.Trim(), id, id2);
                 productImp = new ProductImpl();
                 int n = productImp.Insert(t);
                 if (n > 0)

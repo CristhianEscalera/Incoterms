@@ -35,12 +35,12 @@
         .required {
           border: 1px solid #ccc;
         }
-
-        .required.error {
-          border: 1px solid red;
-        }
-        .selected-row {
-          background-color: #ffcc66; /* Color de fondo para la fila seleccionada */
+        .fixed-headers th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: #f7f7f7; 
+        font-weight: bold; 
         }
     </style>
 </asp:Content>
@@ -73,12 +73,12 @@
         <div class="row">
         <div class="col-md-12">
             <div class="box-body" style="background-color:white;max-height: 450px; overflow-y: auto;" >
-                <asp:GridView ID="gridData" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered table-hover" OnRowCommand="gridData_RowCommand" >
+                <asp:GridView ID="gridData" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered table-hover fixed-headers" OnRowCommand="gridData_RowCommand" >
                     <Columns>
                         <asp:BoundField DataField="Cliente" HeaderText="Cliente" />
                         <asp:BoundField DataField="Municipio" HeaderText="Municipio" />
                         <asp:BoundField DataField="Direccion" HeaderText="Dirección" />
-                        <asp:BoundField DataField="Numero Casa" HeaderText="Numero de casa" />
+                        <asp:BoundField DataField="Numero Casa" HeaderText="Número de casa" />
                         <asp:BoundField DataField="Creado en" HeaderText="Creado en:" />
                         <asp:TemplateField HeaderText="Acciones">
                             <ItemTemplate>
@@ -110,20 +110,4 @@
 <script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
 <script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
-
-    <!-- Page specific script -->
-<script>
-    $(function () {
-        $('#example2').DataTable({
-            "paging": true,
-            "lengthChange": false,
-            "searching": false,
-            "ordering": true,
-            "info": true,
-            "autoWidth": false,
-            "responsive": true,
-        });
-    });
-</script>
-
 </asp:Content>

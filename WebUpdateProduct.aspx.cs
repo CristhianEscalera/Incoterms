@@ -1,6 +1,4 @@
 ﻿using SolucionesMedicasBilbaoDAO;
-using SolucionesMedicasBilbaoDAO.Implementacion;
-using SolucionesMedicasBilbaoDAO.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,7 +33,7 @@ namespace SolucionesMedicasBilbaoWeb
                 ProductImpl impl = new ProductImpl();
                 Product cus = impl.Get(id);
                 txtName.Text = cus.Name;
-                txtBasePrice.Text= cus.BasePrice.ToString();
+                txtPrecio.Text = cus.BasePrice.ToString();
                 TxtStock.Text = cus.Stock.ToString();
                 TxtMeasureUnit.Text = cus.MeasureUnit;
                 cmbBrand.SelectedValue = cus.IdBrand.ToString();
@@ -48,8 +46,7 @@ namespace SolucionesMedicasBilbaoWeb
 
             try
             {
-
-                id =byte.Parse(Request["id"]);
+                id = byte.Parse(Request["id"]);
 
                 string selectedValue = cmbBrand.SelectedValue;
                 int marca = Convert.ToInt32(selectedValue);
@@ -57,7 +54,7 @@ namespace SolucionesMedicasBilbaoWeb
                 int categoria = Convert.ToInt32(selectedValue2);
 
                 ProductImpl impl = new ProductImpl();
-                Product cus = new Product(id,txtName.Text.Trim(), double.Parse(txtBasePrice.Text.Trim()), int.Parse(TxtStock.Text.Trim()), TxtMeasureUnit.Text.Trim(), TxtModel.Text.Trim(),marca,categoria );
+                Product cus = new Product(id, txtName.Text.Trim(), double.Parse(txtPrecio.Text.Trim()), int.Parse(TxtStock.Text.Trim()), TxtMeasureUnit.Text.Trim(), TxtModel.Text.Trim(), marca, categoria);
 
                 impl.Update(cus);
                 Response.Redirect("WebAdmProduct.aspx");

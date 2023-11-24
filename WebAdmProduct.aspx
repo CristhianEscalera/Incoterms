@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="WebAdmProduct.aspx.cs" Inherits="SolucionesMedicasBilbaoWeb.WebAdmProduct" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <!-- DataTables -->
+    
   <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
@@ -32,15 +32,12 @@
           background-color: green;
           color: white;
         }
-        .required {
-          border: 1px solid #ccc;
-        }
-
-        .required.error {
-          border: 1px solid red;
-        }
-        .selected-row {
-          background-color: #ffcc66; /* Color de fondo para la fila seleccionada */
+        .fixed-headers th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: #f7f7f7; 
+        font-weight: bold; 
         }
     </style>
 
@@ -50,7 +47,7 @@
     <div class="form-box">
 
     <section class="content-header">
-        <h1 style="color:white; font-family:Oswald; font-size:30px;">P R O D U C T O</h1>
+        <h1 style="color:white; font-family:Oswald; font-size:30px;">P R O D U C T O S</h1>
     </section>
 
     <section class="content">
@@ -63,7 +60,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="input-group mb-3">
-                    <input type="text" id="txtSearch" class="form-control" placeholder="Buscar...">
+                    <asp:TextBox ID="txtSearch" runat="server" CssClass="form-control" placeholder="Buscar..."></asp:TextBox>
                     <div class="input-group-append">
                         <button class="btn btn-primary" id="btnSearchTop" onclick="searchData()">Buscar</button>
                         <asp:Button ID="btnGenerarPDF" runat="server" Text="Generar PDF" OnClick="btnGenerarPDF_Click" CssClass="btn btn-primary" />
@@ -74,14 +71,14 @@
         <div class="row">
         <div class="col-md-12">
             <div class="box-body" style="background-color:white;max-height: 450px; overflow-y: auto;" >
-                <asp:GridView ID="gridData" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered table-hover" OnRowCommand="gridData_RowCommand" >
+                <asp:GridView ID="gridData" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered table-hover fixed-headers" OnRowCommand="gridData_RowCommand" >
                     <Columns>
                         <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
                         <asp:BoundField DataField="Precio Base" HeaderText="Precio Base" />
                         <asp:BoundField DataField="Stock" HeaderText="Stock" />
                         <asp:BoundField DataField="Unidad de medida" HeaderText="Unidad de medida" />
                         <asp:BoundField DataField="Modelo" HeaderText="Modelo" />
-                        <asp:BoundField DataField="Categoria" HeaderText="Categoria" />
+                        <asp:BoundField DataField="Categoria" HeaderText="Categoría" />
                         <asp:BoundField DataField="Marca" HeaderText="Marca" />
                         <asp:BoundField DataField="Creado en:" HeaderText="Creado en:" />
                         <asp:TemplateField HeaderText="Acciones">
@@ -102,7 +99,7 @@
     </form>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
-    <!-- DataTables  & Plugins -->
+   
 <script src="plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
 <script src="plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
@@ -115,20 +112,4 @@
 <script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
 <script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
-
-    <!-- Page specific script -->
-<script>
-    $(function () {
-        $('#example2').DataTable({
-            "paging": true,
-            "lengthChange": false,
-            "searching": false,
-            "ordering": true,
-            "info": true,
-            "autoWidth": false,
-            "responsive": true,
-        });
-    });
-</script>
-
 </asp:Content>

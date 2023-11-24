@@ -31,13 +31,13 @@
         background-color: green;
         color: white;
       }
-      .required {
-        border: 1px solid #ccc;
-      }
-
-      .required.error {
-        border: 1px solid red;
-      }
+      .fixed-headers th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: #f7f7f7; 
+        font-weight: bold; 
+        }
   </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -61,7 +61,7 @@
                         <input type="text" id="txtSearch" class="form-control" placeholder="Buscar...">
                         <div class="input-group-append">
                             <button class="btn btn-primary" id="btnSearchTop" onclick="searchData()">Buscar</button>
-                            <button class="btn btn-success" id="btnCreatePDF" onclick="createPDF()">Crear PDF</button>
+                            <asp:Button ID="btnGenerarPDF" runat="server" Text="Generar PDF" OnClick="btnGenerarPDF_Click" CssClass="btn btn-primary" />
                         </div>
                     </div>
                 </div>
@@ -69,16 +69,16 @@
             <div class="row">
             <div class="col-md-12">
                 <div class="box-body" style="background-color:white;max-height: 450px; width:100%; overflow-y: auto; overflow-x: auto;" >
-                    <asp:GridView ID="gridData" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered table-hover" OnRowCommand="gridData_RowCommand">
+                    <asp:GridView ID="gridData" runat="server" AutoGenerateColumns="false" CssClass="table table-bordered table-hover fixed-headers" OnRowCommand="gridData_RowCommand">
                         <Columns>
                             <asp:BoundField DataField="Nombre" HeaderText="Embarcador" />
-                            <asp:BoundField DataField="Locacion" HeaderText="Locacion" />
+                            <asp:BoundField DataField="Locacion" HeaderText="Locación" />
                             <asp:BoundField DataField="Precio" HeaderText="Precio" />
-                            <asp:BoundField DataField="Tipo" HeaderText="Tipo de envio" />
+                            <asp:BoundField DataField="Tipo" HeaderText="Tipo de envío" />
                             <asp:BoundField DataField="Creado en" HeaderText="Creado en" />
                             <asp:TemplateField HeaderText="Acciones">
                                 <ItemTemplate>
-                                    <a class="square-button blue-button" href='WebUpdateSupplier.aspx?id=<%#Eval("id")%>'><i class="fas fa-pencil-alt"></i></a>
+                                    <a class="square-button blue-button" href='WebUpdateShipper.aspx?id=<%#Eval("id")%>'><i class="fas fa-pencil-alt"></i></a>
                                     <asp:LinkButton ID="btnEliminar" runat="server" CssClass="square-button red-button" CommandName="Eliminar" CommandArgument='<%# Eval("ID") %>' Text='<i class="fas fa-trash"></i>' OnClientClick="return confirm('¿Deseas Eliminarlo?');"/>
                                 </ItemTemplate>
                             </asp:TemplateField>
@@ -106,19 +106,4 @@
 <script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
 <script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
-
-    <!-- Page specific script -->
-<script>
-    $(function () {
-        $('#example2').DataTable({
-            "paging": true,
-            "lengthChange": false,
-            "searching": false,
-            "ordering": true,
-            "info": true,
-            "autoWidth": false,
-            "responsive": true,
-        });
-    });
-</script>
 </asp:Content>

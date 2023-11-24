@@ -12,13 +12,13 @@ namespace SolucionesMedicasBilbaoWeb
 {
     public partial class WebUpdateUser : System.Web.UI.Page
     {
-        public byte id;
+        public int id;
 
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                id = byte.Parse(Request["id"]);
+                id = int.Parse(Request["id"]);
                 UserImpl impl = new UserImpl();
                 User user = impl.Get(id);
                 txtName.Text = user.Name;

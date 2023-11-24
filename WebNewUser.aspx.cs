@@ -9,6 +9,7 @@ using System.Net;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Threading.Tasks;
 
 namespace SolucionesMedicasBilbaoWeb
 {
@@ -37,7 +38,11 @@ namespace SolucionesMedicasBilbaoWeb
                 string email = user.email;
                 if (validarEmail(email))
                 {
-                    SendMail(email, userName, password);
+                    Task.Run(() =>
+                    {
+                        SendMail(email, userName, password);
+                    });
+
                     Response.Redirect("WebAdmUser.aspx");
 
                 }
@@ -65,7 +70,7 @@ namespace SolucionesMedicasBilbaoWeb
 
         static void SendMail(string destinatario, string user, string password)
         {
-            string senderMail = "bmf0031211@est.univalle.edu";//tu correo de la U
+            string senderMail = "bmf0031211@est.univalle.edu";
             string subject = "Cuenta Soluciones Medicas Bilbao";
             string body = "Usuario: " + user + "\nContraseña: " + password + "\nNo comparta esta información con nadie";
             try
@@ -78,7 +83,7 @@ namespace SolucionesMedicasBilbaoWeb
                 mail.Body = body;
 
                 SmtpClient client = new SmtpClient("smtp.office365.com", 587);
-                client.Credentials = new NetworkCredential(senderMail, "Tonkathiago1011&&$$");//En las comillas poner la contraseña de tu correo
+                client.Credentials = new NetworkCredential(senderMail, "Tonkathiago1011&&$$");
                 client.EnableSsl = true;
                 client.Send(mail);
                 Console.WriteLine("mensaje enviado");

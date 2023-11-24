@@ -28,8 +28,6 @@
                   <div class="card-header" style="background-color:#1B425E">
                     <h3 class="card-title">Administración Clientes</h3>
                   </div>
-                  <!-- /.card-header -->
-                  <!-- form start -->
                   <div class="card-body">
                       <span id="txtError" class="error-message" style="color:red;"></span>
                       <div class="form-group">
@@ -80,7 +78,6 @@
                           </div>
                        </div>
                     </div>
-                    <!-- /.card-body -->
 
                     <div class="card-footer">
                         <asp:Button ID="btnInsert" Text="Insertar" runat="server" CssClass="btn btn-block btn-info btn-lg"  OnClick="btnInsertar_Click"/>
@@ -102,7 +99,6 @@
             var keyCode = event.which ? event.which : event.keyCode;
             var inputValue = String.fromCharCode(keyCode);
 
-            // Permitir números, espacios, guiones y letras mayúsculas
             if (!/^\d|\s|-|[A-Z]$/.test(inputValue)) {
                 event.preventDefault();
             }
@@ -112,7 +108,6 @@
             var keyCode = event.which ? event.which : event.keyCode;
             var inputValue = String.fromCharCode(keyCode);
 
-            // Solo permitir números, guion "-", espacios y la letra "K" mayúscula
             if (!/^\d$|-|\s|K$/i.test(inputValue)) {
                 event.preventDefault();
             }
@@ -122,7 +117,6 @@
             var keyCode = event.which ? event.which : event.keyCode;
             var inputValue = String.fromCharCode(keyCode);
 
-            // Solo permitir números y el signo "+" al principio
             if (!/^\d$|\+$/.test(inputValue)) {
                 event.preventDefault();
             }
@@ -132,10 +126,8 @@
             var key = event.keyCode || event.which;
             var keyChar = String.fromCharCode(key);
 
-            // Expresión regular para permitir letras con tilde y la letra "ñ"
             var regex = /^[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ\s]*$/;
 
-            // Verifica si la tecla presionada es una letra con tilde, la letra "ñ" o un espacio
             if (!regex.test(keyChar)) {
                 event.preventDefault();
                 return false;
@@ -182,52 +174,51 @@
                }
            }
 
-           // Verificar si los campos requeridos están vacíos
            if (txtName.value.trim() === '') {
                txtName.classList.add('error');
                txtDescriptionError.textContent = 'Ingrese Nombres';
-               return false; // Evitar el envío del formulario
+               return false; 
            }
 
            if (txtDPA.value.trim() === '') {
                txtDPA.classList.add('error');
                txtDescriptionError.textContent = 'Ingrese el primer apellido';
-               return false; // Evitar el envío del formulario
+               return false; 
            }
 
            if (txtTitulo.value.trim() === '') {
                txtTitulo.classList.add('error');
                txtDescriptionError.textContent = 'Ingrese título';
-               return false; // Evitar el envío del formulario
+               return false; 
            }
 
            if (txtCi.value.trim() === '') {
                txtCi.classList.add('error');
                txtDescriptionError.textContent = 'Ingrese correctamente el CI';
-               return false; // Evitar el envío del formulario
+               return false; 
            } else if (!verificarCI(txtCi.value.trim())) {
                txtCi.classList.add('error');
                txtDescriptionError.textContent = 'Ingrese un CI válido';
-               return false; // Evitar el envío del formulario
+               return false; 
            }
 
            if (txtNit.value.trim() === '') {
                txtNit.classList.add('error');
                txtDescriptionError.textContent = 'Ingrese correctamente el NIT';
-               return false; // Evitar el envío del formulario
+               return false; 
            } else if (!valNit(txtNit.value.trim())) {
                txtNit.classList.add('error');
                txtDescriptionError.textContent = 'Ingrese un NIT válido';
-               return false; // Evitar el envío del formulario
+               return false; 
            }
 
            var telefonoValue = txtTelefono.value.trim();
            if (telefonoValue === '' || telefonoValue.length < 7) {
                txtTelefono.classList.add('error');
                txtDescriptionError.textContent = 'Ingrese un número de teléfono válido';
-               return false; // Evitar el envío del formulario
+               return false; 
            }
        };
-   </script>/script>
+   </script>
 
 </asp:Content>

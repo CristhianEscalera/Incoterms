@@ -1,18 +1,14 @@
-﻿using SolucionesMedicasBilbaoDAO.Implementacion;
+﻿using iTextSharp.text.pdf;
+using iTextSharp.text;
+using SolucionesMedicasBilbaoDAO.Implementacion;
 using SolucionesMedicasBilbaoDAO.Model;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using iTextSharp.text;
-using iTextSharp.text.html.simpleparser;
-using iTextSharp.text.pdf;
-using System.Web.UI.WebControls;
-using System.IO;
-using System.Data.SqlClient;
-using System.Data;
 
 namespace SolucionesMedicasBilbaoWeb
 {
@@ -54,57 +50,48 @@ namespace SolucionesMedicasBilbaoWeb
         }
         protected void btnGenerarPDF_Click(object sender, EventArgs e)
         {
-            // Configura el documento PDF
             Document pdfDoc = new Document(PageSize.A4, 10f, 10f, 10f, 0f);
-            PdfWriter.GetInstance(pdfDoc, Response.OutputStream);
+            MemoryStream memoryStream = new MemoryStream();
+            PdfWriter writer = PdfWriter.GetInstance(pdfDoc, memoryStream);
             pdfDoc.Open();
-
-            // Agrega el contenido del GridView al PDF
-            PdfPTable table = new PdfPTable(gridData.Columns.Count-1);
+            PdfPTable table = new PdfPTable(gridData.Columns.Count - 1);
             foreach (TableCell cell in gridData.HeaderRow.Cells)
             {
-                table.AddCell(new Phrase(cell.Text));
+                if (cell.Text != "Acciones")
+                {
+                    PdfPCell pdfCell = new PdfPCell(new Phrase(GetCellValue(cell.Text), GetFont()));
+                    table.AddCell(pdfCell);
+                }
             }
             foreach (GridViewRow row in gridData.Rows)
             {
                 foreach (TableCell cell in row.Cells)
                 {
-                    table.AddCell(new Phrase(cell.Text));
+                    if (gridData.HeaderRow.Cells[row.Cells.GetCellIndex(cell)].Text != "Acciones")
+                    {
+                        PdfPCell pdfCell = new PdfPCell(new Phrase(GetCellValue(cell.Text), GetFont()));
+                        table.AddCell(pdfCell);
+                    }
                 }
             }
             pdfDoc.Add(table);
-
-            // Cierra el documento PDF
             pdfDoc.Close();
-
-            // Descarga el PDF generado
             Response.ContentType = "application/pdf";
             Response.AddHeader("content-disposition", "attachment;filename=Usuarios.pdf");
             Response.Cache.SetCacheability(HttpCacheability.NoCache);
-            Response.Write(pdfDoc);
+            Response.BinaryWrite(memoryStream.ToArray());
             Response.End();
         }
-        /*
-        protected void btnSearch_Click(object sender, EventArgs e)
+
+        private Font GetFont()
         {
-            {
-                string query = @"SELECT * FROM Person 
-                                WHERE firstName LIKE @firstName
-                                OR lastName LIKE @lastName 
-                                OR SegundoApellido LIKE @secondLastName";
-                SqlCommand command = new SqlCommand(query);
-                command.Parameters.AddWithValue("@firstName", "%" + p.name + "%");
-                command.Parameters.AddWithValue("@lastName", "%" + p.LastName + "%");
-                command.Parameters.AddWithValue("@SecondLastName", "%" + p.SecondLastName + "%");
+            return FontFactory.GetFont("Arial", 9, Font.NORMAL);
+        }
 
-                SqlDataAdapter adapter = new SqlDataAdapter(command);
-                DataTable dt = new DataTable();
-                adapter.Fill(dt);
-
-                // Enlazar los resultados al GridView
-                gridData.DataSource = dt;
-                gridData.DataBind();
-            }
-        }*/
+        private string GetCellValue(string cellText)
+        {
+            cellText = HttpUtility.HtmlDecode(cellText);
+            return cellText.Replace("&nbsp;", " ");
+        }
     }
 }
