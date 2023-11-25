@@ -163,6 +163,7 @@ Guarda los cambios en "BaseImpl" y ejecuta el programa "Bilbao.SolucionesMedicas
 8. Ingresar Datos Predeterminados:
 Al ejecutar el programa, se encargará de realizar las operaciones necesarias.
 Ingresa los datos predeterminados en la pantalla de inicio de sesión para acceder y utilizar la página.
+User: Admin Contraseña:030772
 
 Con estos pasos, deberías tener el programa y la base de datos correctamente configurados. Asegúrate de seguir cada paso detalladamente para evitar problemas durante la configuración.
 7. PROCEDIMIENTOS DE HOSTEADO / HOSTING (configuración)
