@@ -13,7 +13,8 @@ Materia: 		Proyecto de Sistemas
 
 Docente: 		Gastón Silva Sánchez
 
-Integrantes: 	Fabiana Mercedes Bilbao Mercado
+Integrantes: 	
+Fabiana Mercedes Bilbao Mercado
 
 Cristhian Andrés Escalera Muñoz 
 
