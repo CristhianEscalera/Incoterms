@@ -287,7 +287,7 @@ Puede consultar el siguiente video para solucionarlo
 
 [https://www.youtube.com/watch?v=kmU0LiNP68o](https://www.youtube.com/watch?v=kmU0LiNP68o)
 
-[![Video titulado:How To Fix Login Failed for User Microsoft SQL Server Error 18456 || Step-By-Step](RackMultipart20231128-1-6pfiff_html_343907dc693b085a.jpg)](https://www.youtube.com/watch?v=kmU0LiNP68o)
+[![Alt text for your video](https://img.youtube.com/vi/kmU0LiNP68o/0.jpg)](https://www.youtube.com/watch?v=kmU0LiNP68o)
 
 1. **Restauracion de la Base de datos**
 
