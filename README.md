@@ -418,6 +418,8 @@ Una vez concluida la instalación se vera de la siguiente manera. Ya podrá inic
 ![Inserting image...](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen43.png)
 
 Si llega a tener algún problema con la falta del **asp.net** revise este video [https://youtu.be/ZcXamRtPJ2U?feature=shared](https://youtu.be/ZcXamRtPJ2U?feature=shared)
+[![Alt text for your video](https://img.youtube.com/vi/ZcXamRtPJ2U/0.jpg)](https://www.youtube.com/watch?v=ZcXamRtPJ2U)
+
 
 - Configuración Programa
 
@@ -607,7 +609,7 @@ FrontEnd:Es la interfaz de usuario y todo lo que los usuarios experimentan visua
 
 [https://www.youtube.com/watch?v=bLVVj-3\_wlA](https://www.youtube.com/watch?v=bLVVj-3_wlA)
 
-[![Video titulado:Dockerizando y publicando una ASP .Net Core](RackMultipart20231128-1-j88odg_html_16af21fa62b848a0.png)](https://www.youtube.com/watch?v=bLVVj-3_wlA)
+[![Alt text for your video](https://img.youtube.com/vi/bLVVj-3_wlA/0.jpg)](https://www.youtube.com/watch?v=bLVVj-3_wlA)
 
 # Paquetes NuGet
 
