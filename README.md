@@ -382,15 +382,15 @@ Concluida la descarga te aparecerá lo siguiente, seleccionas **Guardar**
 
 Diríjase a Descargas en su explorador de archivos y haga doble click en la aplicación que descargamos para ejecutarlo
 
-![](RackMultipart20231128-1-j88odg_html_9052933338a2838e.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen35.png)
 
 Presione aceptar en las ventanas que le vayan apareciendo
 
-![](RackMultipart20231128-1-j88odg_html_9c7a7e6e67b94908.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen36.png)
 
 Se descargará e instalará el **Instalador de Visual Studio**
 
-![](RackMultipart20231128-1-j88odg_html_2bce61834e82209a.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen37.png)
 
 Seleccione las opciones de paquetes que necesitara, asegúrese de que tenga instalado **Desarrollo de ASP.NET y web** y el **Desarrollo de escritorio de .NET** , también revise los detalles de instalación y revise que tenga todas las opciones seleccionadas
 
