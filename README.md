@@ -170,7 +170,7 @@ Herramientas Adicionales: Utilice SQL Server Management Studio (SSMS) versión 2
 
 # 6. Instalación y configuración:
 
-Antes de empezar debe descargar el proyecto de la rama " **Main**" del git [https://github.com/CristhianEscalera/Incoterms.git](https://github.com/CristhianEscalera/Incoterms.git) y descomprimirla
+Antes de empezar debe descargar el proyecto de la rama " **Main**" del git [[https://github.com/CristhianEscalera/Incoterms.git](https://github.com/CristhianEscalera/Incoterms.git](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen1.png)) y descomprimirla
 
 - Configuración SQLServer
 
