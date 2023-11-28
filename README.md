@@ -499,7 +499,7 @@ Contraseña: 030772
 - Sitio Web
 - BD
 - API / servicio Web
-- Otros (firebase, etc.) ![](RackMultipart20231128-1-j88odg_html_72bec1d8dc3fc04f.jpg)
+- Otros (firebase, etc.) ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen61.png)
 
 El siguiente error es del dockerizado, al momento de ejecutar el dockerizado nos sale ese error que fuimos tratando de solucionar, hasta ahora seguimos sin poder solucionarlo.
 
@@ -509,13 +509,12 @@ El siguiente error es del dockerizado, al momento de ejecutar el dockerizado nos
 
 Fabiana Bilbao
 
-![](RackMultipart20231128-1-j88odg_html_a0de398bd5267217.jpg)
-
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen62.jpg)
 Nicole Herbas
 
-![](RackMultipart20231128-1-j88odg_html_ff7c68be364906df.jpg)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen63.jpg)
 
-Cristhian Escalera ![](RackMultipart20231128-1-j88odg_html_16a0f7656c8d3d63.png)
+Cristhian Escalera ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen64.png)
 
 # 9. Personalización y configuración
 
