@@ -186,7 +186,7 @@ Diríjase a la siguiente pagina
 
 Una vez ahí diríjase a la siguiente pestaña y haga clic en descargar
 
-![Insertando imagen...](RackMultipart20231128-1-6pfiff_html_d2a4dde58addc468.png](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen1.png)
+![Insertando imagen...](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen1.png)
 
 Una vez el programa este descargado inícielo sin problema alguno, una vez ahí seleccione lo siguiente
 
