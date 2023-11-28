@@ -446,15 +446,15 @@ Una vez ahí presione **Bilbao.SolucionesMedicas.sln** como ya tiene descargado 
 
 Una vez tengamos el programa abierto este lucirá de la siguiente manera
 
-![](RackMultipart20231128-1-j88odg_html_2f8ce7f41d0e39c9.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen52.png)
 
 En la vista lateral vemos el menú de " **Explorador de soluciones**" nos dirigimos a esta y abrimos el proyecto " **SolucionesMedicasBilbaoDAO"** , en este nos dirigimos a la carpeta "I **mplementaciones**" y luego al archivo **"BaseImpl.cs"**
 
-![](RackMultipart20231128-1-j88odg_html_8d4b81e33563250.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen53.png)
 
 En esta encontraremos la siguiente línea de código en la línea 13.
 
-![](RackMultipart20231128-1-j88odg_html_41a965a468ecf522.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen54.png)
 
 En esta deberemos realizar los siguientes cambios
 
@@ -462,23 +462,23 @@ En esta deberemos realizar los siguientes cambios
 
 En la parte donde dice server debemos copiar y pegar el nombre del servidor el cual nos brinda el SQLServer cuando nos **logueamos con el usuario sa** en la parte donde dice " **Server**"
 
-![](RackMultipart20231128-1-j88odg_html_80fdf0821ca765ca.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen55.png)
 
-![](RackMultipart20231128-1-j88odg_html_64ce9f25159c0b7a.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen56.png)
 
 - Iniciar sesión en la conexión
 
 Continuando de la misma manera que iniciamos sesión en SQLServer debemos iniciar sesión de esta manera. Donde pide " **User Id**" debemos verificar que tenga el nombre de nuestro " **Login**" y en la parte de " **Password**" la contraseña del usuario sa.
 
-![](RackMultipart20231128-1-j88odg_html_15709fc104d1cabf.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen57.png)
 
-![](RackMultipart20231128-1-j88odg_html_d88d9eb9ec69e0aa.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen58.png)
 
 - Hacer correr el programa
 
 Aprete el siguiente botón para hacer correr el programa
 
-![](RackMultipart20231128-1-j88odg_html_c436d051fcd9c900.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen59.png)
 
 - Ingresar contraseña y usuario para ingresar al programa
 
@@ -488,7 +488,7 @@ Usuario: Admin
 
 Contraseña: 030772
 
-![](RackMultipart20231128-1-j88odg_html_45e002c407efd694.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen60.png)
 
 - Disfrute del programa
 
