@@ -190,11 +190,11 @@ Una vez ahí diríjase a la siguiente pestaña y haga clic en descargar
 
 Una vez el programa este descargado inícielo sin problema alguno, una vez ahí seleccione lo siguiente
 
-![](RackMultipart20231128-1-6pfiff_html_db988f3c01094fe9.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen2.png)
 
 Acepte todos los términos, una vez hecho eso seleccione la dirección donde desea que se encuentre el sql y luego presione instalar
 
-![](RackMultipart20231128-1-6pfiff_html_da68ed5392cb51c6.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen3.png)
 
 Una vez realizada la instalación le aparecerá lo siguiente
 
