@@ -394,21 +394,21 @@ Se descargará e instalará el **Instalador de Visual Studio**
 
 Seleccione las opciones de paquetes que necesitara, asegúrese de que tenga instalado **Desarrollo de ASP.NET y web** y el **Desarrollo de escritorio de .NET** , también revise los detalles de instalación y revise que tenga todas las opciones seleccionadas
 
-![](RackMultipart20231128-1-j88odg_html_6fa723f58d40d830.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen38.png)
 
 Además, también diríjase a la parte de **Componentes Individuales**
 
-![](RackMultipart20231128-1-j88odg_html_c4de86fe68201ec.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen39.png)
 
 Busque **Plantillas de proyecto y de elemento de .NET Framework** y selecciónelo.
 
-![Inserting image...](RackMultipart20231128-1-j88odg_html_a3d0858e138dd39d.png)
+![Inserting image...](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen40.png)
 
 Con todo eso seleccionado le aparecerá el botón **Install** en la esquina inferior derecha
 
-![](RackMultipart20231128-1-j88odg_html_1c524da4f416d5d2.png) Comenzara a instalarse todos los componentes que seleccionamos
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen41.png) Comenzara a instalarse todos los componentes que seleccionamos
 
-![](RackMultipart20231128-1-j88odg_html_43da3305579655ad.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen42.png)
 
 Una vez concluida la instalación se vera de la siguiente manera. Ya podrá iniciar y usar Visual Studio sin ningún problema
 
