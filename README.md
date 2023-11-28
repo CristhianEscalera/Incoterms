@@ -198,11 +198,11 @@ Acepte todos los términos, una vez hecho eso seleccione la dirección donde des
 
 Una vez realizada la instalación le aparecerá lo siguiente
 
-![Insertando imagen...](RackMultipart20231128-1-6pfiff_html_fdb1f5d50454b70e.png)
+![Insertando imagen...](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen4.png)
 
 Seleccione **Instalar SSMS** , este lo enviara a una página de Microsoft donde tendra que descargar lo siguiente
 
-![](RackMultipart20231128-1-6pfiff_html_9fa72b2e9e6f611c.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen5.png)
 
 Si el link no le aparece aquí tiene el SSMS
 
@@ -210,7 +210,7 @@ Si el link no le aparece aquí tiene el SSMS
 
 Una vez lo tenga descargado inícielo, solo tendrá que seleccionar donde desea que el programa se guarde (puede dejarlo en el default sin problema)
 
-![](RackMultipart20231128-1-6pfiff_html_46e63f27c07f9829.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen6.png)
 
 Una vez termine la descarda reinicie su computadora para que los cambios sean ejecutados correctamente. Una vez el equipo sea reiniciado busque en sus aplicaciones " **SQL Server Management Studio Management Studio 19**", si tiene problemas puede consultar las siguientes paginas
 
