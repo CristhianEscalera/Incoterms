@@ -176,7 +176,7 @@ Antes de empezar debe descargar el proyecto de la rama " **Main**" del git [http
 
 Para usar el proyecto primeramente tendremos que iniciar la base de datos "[BDEquiposMedicosFinal (1).bak](https://github.com/CristhianEscalera/Incoterms/blob/main/BDEquiposMedicosFinal%20(1).bak)" mediante SQLServer
 
-**En caso de que lo tenga y no sepa como iniciar la base siga los siguientes pasos:**
+**En caso de que no lo tenga y no sepa como iniciar la base siga los siguientes pasos:**
 
 1. **Instalación de SqlServer**
 
@@ -343,7 +343,6 @@ Una vez realizado el cambio, iremos al icono de guardado que esta encima del tod
 
 ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen30.png)
 
-i
 
 Una vez hecho deberemos realizar lo mismo, pero en reversa, que quiere decir eso que repetiremos los pasos dejando esta vez el iremos a la parte donde dice (Is Identity) y haremos doble clic para que este cambie a "Yes" y volveremos a guardar los cambios. Con esto ya tendriamos la base de datos en perfecto funcionamiento.
 
@@ -359,7 +358,7 @@ En esta diríjase a la pestaña " **Designers**" y verifique que la configuraci�
 
 - **Configuración Visual Studio**
 
-**En caso de que lo tenga siga los siguientes pasos:**
+**En caso de que no lo tenga siga los siguientes pasos:**
 
 - **Instalación de Visual Studio**
 
