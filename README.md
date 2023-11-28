@@ -228,47 +228,47 @@ Para poder iniciar o restaurar la base de datos tiene que iniciar el SQLServer m
 
 Al iniciar SQLServer le aparecerá un marco de conexión el cual debe estar realizando autenticacion mediante windows para poder realizar los cambios, por lo que su marco de conexión deberá verse de la siguiente manera antes de que pulse el botón " **Connect**" (No cambie el nombre del Servidor)
 
-![](RackMultipart20231128-1-6pfiff_html_df90e72c5cfc1ff3.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen7.png)
 
 Una vez iniciado a un costado de su pantalla aparecerá el Object Explorer. Una vez ahí tendrá que seleccionar la carpeta **Security** , una vez abierta habrá la carpeta **Logins** y haga click derecho sobre sa , una vez hecho le saldrá un pequeño menú, elija "Properties" se encuentra al final del menú
 
-![](RackMultipart20231128-1-6pfiff_html_27fe1770fc079e74.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen8.png)
 
 Una vez abierto diríjase a Status y verifique que la configuración sea la siguiente (Asegúrese de que todo esté de acuerdo a la imagen)
 
-![](RackMultipart20231128-1-6pfiff_html_beef77313aafdaff.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen9.png)
 
 Una vez realizado nos dirigiremos hacia General donde cambiaremos la contraseña del sa, puede cambiar la contraseña a lo que usted guste
 
-![](RackMultipart20231128-1-6pfiff_html_bae9ce0372241696.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen10.png)
 
 Luego de haber realizado todo presione el botón Ok para guardar los cambios realizados. Una vez realizado los pasos debemos refrescar logins de la siguiente manera
 
-![](RackMultipart20231128-1-6pfiff_html_32ff3f276294a3ab.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen11.png)
 
 Una vez refresquemos logins nos dirigiremos a nuestro servidor donde haremos click derecho y nos dirigiremos a Properties
 
-![](RackMultipart20231128-1-6pfiff_html_d6339cee679b525f.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen12.png)
 
 Nos dirigiremos a la seccion de Security y verifique que la configuración sea la siguiente (Asegúrese de que todo esté de acuerdo a la imagen)
 
-![](RackMultipart20231128-1-6pfiff_html_63b1682cd691deef.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen13.png)
 
 Una vez realizados todos los cambios pulse el boton de "Ok" y realice lo siguiente. Diríjase hacia el servidor y haga clic derecho, luego presione "Restart"
 
-![](RackMultipart20231128-1-6pfiff_html_9a3afbf415f698b5.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen14.png)
 
 Este le pedirá permiso para realizar cambios a los cuales deberá aceptar, una vez aceptados le aparecerá lo siguiente el cual deberá aceptar de igual manera.
 
-![Insertando imagen...](RackMultipart20231128-1-6pfiff_html_f382937178490662.png)
+![Insertando imagen...](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen15.png)
 
 Una vez haya terminado, si es que sigue conectado deberá desconectarse apretando este boton
 
-![](RackMultipart20231128-1-6pfiff_html_2251c170f19061a7.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen16.png)
 
 Para volver a conectarse presione el siguiente botón
 
-![](RackMultipart20231128-1-6pfiff_html_5c88a139d280f1a5.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen17.png)
 
 Una vez presionado volveremos a la pantalla de "Connect Server", solo que ahora seleccionaremos lo siguiente, en Authentication ingresaremos mediante "SQL Server Authentication", en login pondremos el nombre del usuario el cual es "sa" y finalmente en Password la contraseña que ingresamos con anterioridad. Una vez todo realizado aprete el boton "Connect" ![](RackMultipart20231128-1-6pfiff_html_ee80acdd621aecea.png)
 
@@ -280,7 +280,7 @@ Si a tenido problemas para poder conectarse puede consultar con el siguiente vid
 
 En caso de que le haya salido el siguiente error (El cual es muy normal al momento de iniciar SQL)
 
-![](RackMultipart20231128-1-6pfiff_html_998ac7b66f209477.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen18.png)
 
 Puede consultar el siguiente video para solucionarlo
 
