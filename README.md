@@ -499,7 +499,9 @@ Contraseña: 030772
 - Sitio Web
 - BD
 - API / servicio Web
-- Otros (firebase, etc.) ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen50.jpg)
+- Otros (firebase, etc.)
+
+- ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen50.jpg)
 
 El siguiente error es del dockerizado, al momento de ejecutar el dockerizado nos sale ese error que fuimos tratando de solucionar, hasta ahora seguimos sin poder solucionarlo.
 
@@ -507,14 +509,22 @@ El siguiente error es del dockerizado, al momento de ejecutar el dockerizado nos
 
 [https://github.com/CristhianEscalera/Incoterms.git](https://github.com/CristhianEscalera/Incoterms.git)
 
+
 Fabiana Bilbao
 
 ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen62.jpg)
+
+
 Nicole Herbas
 
 ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen63.jpg)
 
-Cristhian Escalera ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen64.png)
+
+
+Cristhian Escalera 
+
+
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen64.png)
 
 # 9. Personalización y configuración
 
