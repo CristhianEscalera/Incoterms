@@ -332,15 +332,15 @@ Como ultimo para configurar y evitar problemas en la base de datos tenemos que h
 
 Nos dirigiremos a la tabla "Person" y haremos clic donde dice "id", luego en la tabla de propiedades nos dirigiremos a "Identity Specifications" y hacermos clic donde dice "Yes"
 
-![](RackMultipart20231128-1-6pfiff_html_cc9c3d9988137fc4.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen28.png)
 
 Iremos a la parte donde dice (Is Identity) y haremos doble clic para que este cambie a "No"
 
-![](RackMultipart20231128-1-6pfiff_html_50ccc6834b91d1dd.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen29.png)
 
 Una vez realizado el cambio, iremos al icono de guardado que esta encima del todo y lo presionaremos, nos saldrá la siguiente ventana y apretaremos "Yes"
 
-![](RackMultipart20231128-1-6pfiff_html_66fa54d1fcbf1ad.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen30.png)
 
 i
 
@@ -356,7 +356,7 @@ Ingrese a la página oficial de **Visual Studio** para descargarlo
 
 [https://visualstudio.microsoft.com/es/](https://visualstudio.microsoft.com/es/)
 
-![](RackMultipart20231128-1-6pfiff_html_4e9e1bc95cefb714.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen31.png)
 
 Busca la opción de descarga y descarga el " **Community 2022**" o puede entrar a este link para descargar directamente [https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false)
 
