@@ -412,7 +412,7 @@ Con todo eso seleccionado le aparecerá el botón **Install** en la esquina infe
 
 Una vez concluida la instalación se vera de la siguiente manera. Ya podrá iniciar y usar Visual Studio sin ningún problema
 
-![Inserting image...](RackMultipart20231128-1-j88odg_html_b93b7b49e4a244c5.png)
+![Inserting image...](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen43.png)
 
 Si llega a tener algún problema con la falta del **asp.net** revise este video [https://youtu.be/ZcXamRtPJ2U?feature=shared](https://youtu.be/ZcXamRtPJ2U?feature=shared)
 
@@ -420,27 +420,27 @@ Si llega a tener algún problema con la falta del **asp.net** revise este video 
 
 Ingrese al **git** para descargar el proyecto [https://github.com/CristhianEscalera/Incoterms.git](https://github.com/CristhianEscalera/Incoterms.git)
 
-![](RackMultipart20231128-1-j88odg_html_b1f8445015cd1253.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen44.png)
 
 Presione el botón **Code** esto le desplegara una mini ventana donde deberá presionar **Download ZIP** esto comenzara la descarga
 
-![](RackMultipart20231128-1-j88odg_html_f17779c8894eb750.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen45.png)
 
 En **Descargas** de su Explorador de Archivos realice clic derecho sobre el zip del proyecto descargado y realice la descompresión del mismo
 
-![](RackMultipart20231128-1-j88odg_html_95c3df988eb136d0.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen46.png)
 
 Ingrese en la carpeta del proyecto **Incoterms-main**
 
-![](RackMultipart20231128-1-j88odg_html_5691644ea55641df.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen47.png)
 
 Ingrese dentro la carpeta **Bilbao.SolucionesMedicas**
 
-![Inserting image...](RackMultipart20231128-1-j88odg_html_5a95d5988db5d53d.png)
+![Inserting image...](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen48.png)
 
 Una vez ahí presione **Bilbao.SolucionesMedicas.sln** como ya tiene descargado el programa de Visual Studio podrá abrir sin ningún problema el proyecto. En caso de tener algún problema consulte los puntos anteriores para revisar que no se equivocase en otra parte
 
-![](RackMultipart20231128-1-j88odg_html_39e9730123259abc.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen49.png)
 
 Una vez tengamos el programa abierto este lucirá de la siguiente manera
 
