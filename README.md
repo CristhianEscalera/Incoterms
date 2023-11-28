@@ -492,14 +492,14 @@ Contraseña: 030772
 
 - Disfrute del programa
 
-![](RackMultipart20231128-1-j88odg_html_bc67e8abe361b92e.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen61.png)
 
 # 7. PROCEDIMIENTOS DE HOSTEADO / HOSTING (configuración)
 
 - Sitio Web
 - BD
 - API / servicio Web
-- Otros (firebase, etc.) ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen61.png)
+- Otros (firebase, etc.) ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen50.jpg)
 
 El siguiente error es del dockerizado, al momento de ejecutar el dockerizado nos sale ese error que fuimos tratando de solucionar, hasta ahora seguimos sin poder solucionarlo.
 
