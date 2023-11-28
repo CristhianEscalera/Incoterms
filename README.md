@@ -316,15 +316,15 @@ Para que al momento de seleccionar el archivo se le sea más fácil y rápido de
 
 Una vez todo este hecho deberá aparecerle el archivo seleccionado de la siguiente manera, en este momento solo presione "Ok" y habrá finalizado con la recuperación de la base de datos
 
-![]([RackMultipart20231128-1-6pfiff_html_50b4618780fd1f5c.png)](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen25.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen25.png)
 
 Para poder visualizar la base deberá dirigirse nuevamente a "Database" donde esta vez le )aparecerá la base de datos "BDEquiposMedicos" debera hacer clic a esta, luego abrir "Database Diagrams" y finalmente hacer clic en "dbo.BDEquiposMedicos"
 
-![](RackMultipart20231128-1-6pfiff_html_5f9fe309b693ab0a.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen26.png)
 
 Si a realizado todo de manera correcta su pantalla cargara la base de datos de manera correcta y deberia verse de la siguiente manera
 
-![](RackMultipart20231128-1-6pfiff_html_4b9208f9287b2841.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen27.png)
 
 1. **Ambientación de Base**
 
