@@ -372,7 +372,9 @@ Ingrese a la página oficial de **Visual Studio** para descargarlo
 
 Busca la opción de descarga y descarga el " **Community 2022**" o puede entrar a este link para descargar directamente [https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false)
 
-![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen32.png) Despúes de hacer click te llevara a esta página y comenzara automáticamente la descarga
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen32.png) 
+
+Despúes de hacer click te llevara a esta página y comenzara automáticamente la descarga
 
 ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen33.png)
 
