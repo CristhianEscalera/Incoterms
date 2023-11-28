@@ -304,21 +304,21 @@ Una vez seleccionado se abrirá la siguiente ventana, en esta deberá dirigirse 
 
 En la nueva ventana abierta presione el boton "Add"
 
-![](RackMultipart20231128-1-6pfiff_html_6134569aa2fac9a8.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen22.png)
 
 Debe mover el archivo "[BDEquiposMedicosFinal (1).bak](https://github.com/CristhianEscalera/Incoterms/blob/main/BDEquiposMedicosFinal%20(1).bak)" dentro del disco C:\ de su computador en este caso Y COMO EJEMPLO puede crear una carpeta en el disco C y mover el archivo a esta
 
-![](RackMultipart20231128-1-6pfiff_html_c3348a566f590183.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen23.png)
 
 Para que al momento de seleccionar el archivo se le sea más fácil y rápido de encontrar, en estos momentos solo debe seleccionar el archivo descargado y continuar
 
-![](RackMultipart20231128-1-6pfiff_html_3effbc8ed4014f52.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen24.png)
 
 Una vez todo este hecho deberá aparecerle el archivo seleccionado de la siguiente manera, en este momento solo presione "Ok" y habrá finalizado con la recuperación de la base de datos
 
-![](RackMultipart20231128-1-6pfiff_html_50b4618780fd1f5c.png)
+![]([RackMultipart20231128-1-6pfiff_html_50b4618780fd1f5c.png)](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen25.png)
 
-Para poder visualizar la base deberá dirigirse nuevamente a "Database" donde esta vez le aparecerá la base de datos "BDEquiposMedicos" debera hacer clic a esta, luego abrir "Database Diagrams" y finalmente hacer clic en "dbo.BDEquiposMedicos"
+Para poder visualizar la base deberá dirigirse nuevamente a "Database" donde esta vez le )aparecerá la base de datos "BDEquiposMedicos" debera hacer clic a esta, luego abrir "Database Diagrams" y finalmente hacer clic en "dbo.BDEquiposMedicos"
 
 ![](RackMultipart20231128-1-6pfiff_html_5f9fe309b693ab0a.png)
 
