@@ -501,7 +501,7 @@ Contraseña: 030772
 - API / servicio Web
 - Otros (firebase, etc.)
 
-- ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen50.jpg)
+ ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen50.jpg)
 
 El siguiente error es del dockerizado, al momento de ejecutar el dockerizado nos sale ese error que fuimos tratando de solucionar, hasta ahora seguimos sin poder solucionarlo.
 
