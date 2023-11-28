@@ -296,11 +296,11 @@ Para poder realizar su recuperación debe estar **logeado en SQLServer con el us
 
 Diríjase a la carpeta database y de clic derecho, seleccione del menu la opcion "Restore Database"
 
-![](RackMultipart20231128-1-6pfiff_html_3249137eff34d430.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen19.png)
 
 Una vez seleccionado se abrirá la siguiente ventana, en esta deberá dirigirse a la pestaña "General" y seleccionar la opción "Device", luego presione el boton donde se encuentra los tres puntos
 
-![](RackMultipart20231128-1-6pfiff_html_8b4cef9cc61f4a8a.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen20.png)
 
 En la nueva ventana abierta presione el boton "Add"
 
