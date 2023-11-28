@@ -276,7 +276,8 @@ Si a tenido problemas para poder conectarse puede consultar con el siguiente vid
 
 [https://www.youtube.com/watch?v=yXhjFOvNyR4&t=9s](https://www.youtube.com/watch?v=yXhjFOvNyR4&t=9s)
 
-[![Video titulado:HABILITAR Usuario sa en SQL Server | SQL Server 2019 |SQL Server Managment 2023](RackMultipart20231128-1-6pfiff_html_fc0a7950c654b4b4.jpg)](https://www.youtube.com/watch?v=yXhjFOvNyR4&t=9s)
+[![Alt text for your video](https://img.youtube.com/vi/yXhjFOvNyR4/0.jpg)](https://www.youtube.com/watch?v=yXhjFOvNyR4)
+
 
 En caso de que le haya salido el siguiente error (El cual es muy normal al momento de iniciar SQL)
 
