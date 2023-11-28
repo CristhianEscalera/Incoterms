@@ -350,11 +350,11 @@ Si tiene problemas al momento de guardar cambios siga los siguientes pasos
 
 Diríjase a la parte de **Tools/Herramientas** y haga clic en " **Options**"
 
-![](RackMultipart20231128-1-j88odg_html_ac5bee0180500b11.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen50.png)
 
 En esta diríjase a la pestaña " **Designers**" y verifique que la configuración sea la siguiente (Asegúrese de que todo esté de acuerdo a la imagen) Una vez realice este cambio guárdelos y vuelva a intentar.
 
-![](RackMultipart20231128-1-j88odg_html_281481610bfa704d.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen51.png)
 
 - **Configuración Visual Studio**
 
@@ -368,17 +368,17 @@ Ingrese a la página oficial de **Visual Studio** para descargarlo
 
 [https://visualstudio.microsoft.com/es/](https://visualstudio.microsoft.com/es/)
 
-![](RackMultipart20231128-1-j88odg_html_4e9e1bc95cefb714.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen31.png)
 
 Busca la opción de descarga y descarga el " **Community 2022**" o puede entrar a este link para descargar directamente [https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false)
 
-![](RackMultipart20231128-1-j88odg_html_a7b183716c2398b4.png) Despúes de hacer click te llevara a esta página y comenzara automáticamente la descarga
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen32.png) Despúes de hacer click te llevara a esta página y comenzara automáticamente la descarga
 
-![](RackMultipart20231128-1-j88odg_html_c0346eee0020de7a.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen33.png)
 
 Concluida la descarga te aparecerá lo siguiente, seleccionas **Guardar**
 
-![](RackMultipart20231128-1-j88odg_html_6bcc6cc2aafc5806.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen34.png)
 
 Diríjase a Descargas en su explorador de archivos y haga doble click en la aplicación que descargamos para ejecutarlo
 
