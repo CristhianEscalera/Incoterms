@@ -346,9 +346,21 @@ i
 
 Una vez hecho deberemos realizar lo mismo, pero en reversa, que quiere decir eso que repetiremos los pasos dejando esta vez el iremos a la parte donde dice (Is Identity) y haremos doble clic para que este cambie a "Yes" y volveremos a guardar los cambios. Con esto ya tendriamos la base de datos en perfecto funcionamiento.
 
-Si tiene un problema
+Si tiene problemas al momento de guardar cambios siga los siguientes pasos
 
-Configuración Visual Studio
+Diríjase a la parte de **Tools/Herramientas** y haga clic en " **Options**"
+
+![](RackMultipart20231128-1-j88odg_html_ac5bee0180500b11.png)
+
+En esta diríjase a la pestaña " **Designers**" y verifique que la configuración sea la siguiente (Asegúrese de que todo esté de acuerdo a la imagen) Una vez realice este cambio guárdelos y vuelva a intentar.
+
+![](RackMultipart20231128-1-j88odg_html_281481610bfa704d.png)
+
+- **Configuración Visual Studio**
+
+**En caso de que lo tenga siga los siguientes pasos:**
+
+- **Instalación de Visual Studio**
 
 Para inicializar el programa o hacer correr el "[Bilbao.SolucionesMedicas](https://github.com/CristhianEscalera/Incoterms/tree/main/Bilbao.SolucionesMedicas)" se requiere del programa. Si no tiene Visual Studio Realice los siguientes pasos:
 
@@ -356,86 +368,136 @@ Ingrese a la página oficial de **Visual Studio** para descargarlo
 
 [https://visualstudio.microsoft.com/es/](https://visualstudio.microsoft.com/es/)
 
-![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen31.png)
+![](RackMultipart20231128-1-j88odg_html_4e9e1bc95cefb714.png)
 
 Busca la opción de descarga y descarga el " **Community 2022**" o puede entrar a este link para descargar directamente [https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false)
 
-![](RackMultipart20231128-1-6pfiff_html_a7b183716c2398b4.png) Despúes de hacer click te llevara a esta página y comenzara automáticamente la descarga
+![](RackMultipart20231128-1-j88odg_html_a7b183716c2398b4.png) Despúes de hacer click te llevara a esta página y comenzara automáticamente la descarga
 
-![](RackMultipart20231128-1-6pfiff_html_c0346eee0020de7a.png)
+![](RackMultipart20231128-1-j88odg_html_c0346eee0020de7a.png)
 
 Concluida la descarga te aparecerá lo siguiente, seleccionas **Guardar**
 
-![](RackMultipart20231128-1-6pfiff_html_6bcc6cc2aafc5806.png)
+![](RackMultipart20231128-1-j88odg_html_6bcc6cc2aafc5806.png)
 
 Diríjase a Descargas en su explorador de archivos y haga doble click en la aplicación que descargamos para ejecutarlo
 
-![](RackMultipart20231128-1-6pfiff_html_9052933338a2838e.png)
+![](RackMultipart20231128-1-j88odg_html_9052933338a2838e.png)
 
 Presione aceptar en las ventanas que le vayan apareciendo
 
-![](RackMultipart20231128-1-6pfiff_html_9c7a7e6e67b94908.png)
+![](RackMultipart20231128-1-j88odg_html_9c7a7e6e67b94908.png)
 
 Se descargará e instalará el **Instalador de Visual Studio**
 
-![](RackMultipart20231128-1-6pfiff_html_2bce61834e82209a.png)
+![](RackMultipart20231128-1-j88odg_html_2bce61834e82209a.png)
 
-Seleccione las opciones de paquetes que necesitara, asegúrese de que tenga instalado **Desarrollo de ASP.NET y web** , también revise los detalles de instalación y revise que tenga todas las opciones seleccionadas
+Seleccione las opciones de paquetes que necesitara, asegúrese de que tenga instalado **Desarrollo de ASP.NET y web** y el **Desarrollo de escritorio de .NET** , también revise los detalles de instalación y revise que tenga todas las opciones seleccionadas
 
-![](RackMultipart20231128-1-6pfiff_html_31141a6c1509a806.png)
+![](RackMultipart20231128-1-j88odg_html_6fa723f58d40d830.png)
 
 Además, también diríjase a la parte de **Componentes Individuales**
 
-![](RackMultipart20231128-1-6pfiff_html_c4de86fe68201ec.png)
+![](RackMultipart20231128-1-j88odg_html_c4de86fe68201ec.png)
 
 Busque **Plantillas de proyecto y de elemento de .NET Framework** y selecciónelo.
 
-![Inserting image...](RackMultipart20231128-1-6pfiff_html_a3d0858e138dd39d.png)
+![Inserting image...](RackMultipart20231128-1-j88odg_html_a3d0858e138dd39d.png)
 
-Con todo eso seleccionado le aparecerá el botón **Instalar** en la esquina inferior derecha
+Con todo eso seleccionado le aparecerá el botón **Install** en la esquina inferior derecha
 
-![](RackMultipart20231128-1-6pfiff_html_1c524da4f416d5d2.png) Comenzara a instalarse todos los componentes que seleccionamos
+![](RackMultipart20231128-1-j88odg_html_1c524da4f416d5d2.png) Comenzara a instalarse todos los componentes que seleccionamos
 
-![](RackMultipart20231128-1-6pfiff_html_43da3305579655ad.png)
+![](RackMultipart20231128-1-j88odg_html_43da3305579655ad.png)
 
 Una vez concluida la instalación se vera de la siguiente manera. Ya podrá iniciar y usar Visual Studio sin ningún problema
 
-![Inserting image...](RackMultipart20231128-1-6pfiff_html_b93b7b49e4a244c5.png)
+![Inserting image...](RackMultipart20231128-1-j88odg_html_b93b7b49e4a244c5.png)
 
-Si llega a tener algún problema con la falta del asp.net revise este video [https://youtu.be/ZcXamRtPJ2U?feature=shared](https://youtu.be/ZcXamRtPJ2U?feature=shared)
+Si llega a tener algún problema con la falta del **asp.net** revise este video [https://youtu.be/ZcXamRtPJ2U?feature=shared](https://youtu.be/ZcXamRtPJ2U?feature=shared)
 
-Configuración Programa
+- Configuración Programa
 
-Ingrese al git para descargar el proyecto [https://github.com/CristhianEscalera/Incoterms.git](https://github.com/CristhianEscalera/Incoterms.git)
+Ingrese al **git** para descargar el proyecto [https://github.com/CristhianEscalera/Incoterms.git](https://github.com/CristhianEscalera/Incoterms.git)
 
-![](RackMultipart20231128-1-6pfiff_html_b1f8445015cd1253.png)
+![](RackMultipart20231128-1-j88odg_html_b1f8445015cd1253.png)
 
 Presione el botón **Code** esto le desplegara una mini ventana donde deberá presionar **Download ZIP** esto comenzara la descarga
 
-![](RackMultipart20231128-1-6pfiff_html_f17779c8894eb750.png)
+![](RackMultipart20231128-1-j88odg_html_f17779c8894eb750.png)
 
-En Descargas de su Explorador de Archivos realice clic izquierdo sobre el zip del proyecto descargado y realice la descompresión del mismo
+En **Descargas** de su Explorador de Archivos realice clic derecho sobre el zip del proyecto descargado y realice la descompresión del mismo
 
-![](RackMultipart20231128-1-6pfiff_html_95c3df988eb136d0.png)
+![](RackMultipart20231128-1-j88odg_html_95c3df988eb136d0.png)
 
 Ingrese en la carpeta del proyecto **Incoterms-main**
 
-![](RackMultipart20231128-1-6pfiff_html_5691644ea55641df.png)
+![](RackMultipart20231128-1-j88odg_html_5691644ea55641df.png)
 
 Ingrese dentro la carpeta **Bilbao.SolucionesMedicas**
 
-![Inserting image...](RackMultipart20231128-1-6pfiff_html_5a95d5988db5d53d.png)
+![Inserting image...](RackMultipart20231128-1-j88odg_html_5a95d5988db5d53d.png)
 
 Una vez ahí presione **Bilbao.SolucionesMedicas.sln** como ya tiene descargado el programa de Visual Studio podrá abrir sin ningún problema el proyecto. En caso de tener algún problema consulte los puntos anteriores para revisar que no se equivocase en otra parte
 
-![](RackMultipart20231128-1-6pfiff_html_39e9730123259abc.png)
+![](RackMultipart20231128-1-j88odg_html_39e9730123259abc.png)
+
+Una vez tengamos el programa abierto este lucirá de la siguiente manera
+
+![](RackMultipart20231128-1-j88odg_html_2f8ce7f41d0e39c9.png)
+
+En la vista lateral vemos el menú de " **Explorador de soluciones**" nos dirigimos a esta y abrimos el proyecto " **SolucionesMedicasBilbaoDAO"** , en este nos dirigimos a la carpeta "I **mplementaciones**" y luego al archivo **"BaseImpl.cs"**
+
+![](RackMultipart20231128-1-j88odg_html_8d4b81e33563250.png)
+
+En esta encontraremos la siguiente línea de código en la línea 13.
+
+![](RackMultipart20231128-1-j88odg_html_41a965a468ecf522.png)
+
+En esta deberemos realizar los siguientes cambios
+
+- Poner el nombre del servicio
+
+En la parte donde dice server debemos copiar y pegar el nombre del servidor el cual nos brinda el SQLServer cuando nos **logueamos con el usuario sa** en la parte donde dice " **Server**"
+
+![](RackMultipart20231128-1-j88odg_html_80fdf0821ca765ca.png)
+
+![](RackMultipart20231128-1-j88odg_html_64ce9f25159c0b7a.png)
+
+- Iniciar sesión en la conexión
+
+Continuando de la misma manera que iniciamos sesión en SQLServer debemos iniciar sesión de esta manera. Donde pide " **User Id**" debemos verificar que tenga el nombre de nuestro " **Login**" y en la parte de " **Password**" la contraseña del usuario sa.
+
+![](RackMultipart20231128-1-j88odg_html_15709fc104d1cabf.png)
+
+![](RackMultipart20231128-1-j88odg_html_d88d9eb9ec69e0aa.png)
+
+- Hacer correr el programa
+
+Aprete el siguiente botón para hacer correr el programa
+
+![](RackMultipart20231128-1-j88odg_html_c436d051fcd9c900.png)
+
+- Ingresar contraseña y usuario para ingresar al programa
+
+Finalmente, el programa ha sido iniciado, lo único que debe hacer para ingresar es poner
+
+Usuario: Admin
+
+Contraseña: 030772
+
+![](RackMultipart20231128-1-j88odg_html_45e002c407efd694.png)
+
+- Disfrute del programa
+
+![](RackMultipart20231128-1-j88odg_html_bc67e8abe361b92e.png)
 
 # 7. PROCEDIMIENTOS DE HOSTEADO / HOSTING (configuración)
 
 - Sitio Web
 - BD
 - API / servicio Web
-- Otros (firebase, etc.) ![](RackMultipart20231128-1-6pfiff_html_72bec1d8dc3fc04f.jpg)
+- Otros (firebase, etc.) ![](RackMultipart20231128-1-j88odg_html_72bec1d8dc3fc04f.jpg)
 
 El siguiente error es del dockerizado, al momento de ejecutar el dockerizado nos sale ese error que fuimos tratando de solucionar, hasta ahora seguimos sin poder solucionarlo.
 
@@ -445,13 +507,13 @@ El siguiente error es del dockerizado, al momento de ejecutar el dockerizado nos
 
 Fabiana Bilbao
 
-![](RackMultipart20231128-1-6pfiff_html_a0de398bd5267217.jpg)
+![](RackMultipart20231128-1-j88odg_html_a0de398bd5267217.jpg)
 
 Nicole Herbas
 
-![](RackMultipart20231128-1-6pfiff_html_ff7c68be364906df.jpg)
+![](RackMultipart20231128-1-j88odg_html_ff7c68be364906df.jpg)
 
-Cristhian Escalera ![](RackMultipart20231128-1-6pfiff_html_16a0f7656c8d3d63.png)
+Cristhian Escalera ![](RackMultipart20231128-1-j88odg_html_16a0f7656c8d3d63.png)
 
 # 9. Personalización y configuración
 
@@ -533,7 +595,7 @@ FrontEnd:Es la interfaz de usuario y todo lo que los usuarios experimentan visua
 
 [https://www.youtube.com/watch?v=bLVVj-3\_wlA](https://www.youtube.com/watch?v=bLVVj-3_wlA)
 
-[![Video titulado:Dockerizando y publicando una ASP .Net Core](RackMultipart20231128-1-6pfiff_html_16af21fa62b848a0.png)](https://www.youtube.com/watch?v=bLVVj-3_wlA)
+[![Video titulado:Dockerizando y publicando una ASP .Net Core](RackMultipart20231128-1-j88odg_html_16af21fa62b848a0.png)](https://www.youtube.com/watch?v=bLVVj-3_wlA)
 
 # Paquetes NuGet
 
@@ -598,3 +660,4 @@ Stackoverflow. "error with addwithvalue sql parameter" [https://stackoverflow.co
 Stackoverflow. "La consulta espera el parametro @Nombre que no se ha proporcionado" [https://es.stackoverflow.com/questions/32573/la-consulta-espera-el-parametro-nombre-que-no-se-ha-proporcionado](https://es.stackoverflow.com/questions/32573/la-consulta-espera-el-parametro-nombre-que-no-se-ha-proporcionado)
 
 Stackoverflow. "Input string was not in a correct format, Drop down list Selected Value." [https://stackoverflow.com/questions/10028046/input-string-was-not-in-a-correct-format-drop-down-list-selected-value](https://stackoverflow.com/questions/10028046/input-string-was-not-in-a-correct-format-drop-down-list-selected-value)
+
