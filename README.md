@@ -270,7 +270,7 @@ Para volver a conectarse presione el siguiente botón
 
 ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen17.png)
 
-Una vez presionado volveremos a la pantalla de "Connect Server", solo que ahora seleccionaremos lo siguiente, en Authentication ingresaremos mediante "SQL Server Authentication", en login pondremos el nombre del usuario el cual es "sa" y finalmente en Password la contraseña que ingresamos con anterioridad. Una vez todo realizado aprete el boton "Connect" ![](RackMultipart20231128-1-6pfiff_html_ee80acdd621aecea.png)
+Una vez presionado volveremos a la pantalla de "Connect Server", solo que ahora seleccionaremos lo siguiente, en Authentication ingresaremos mediante "SQL Server Authentication", en login pondremos el nombre del usuario el cual es "sa" y finalmente en Password la contraseña que ingresamos con anterioridad. Una vez todo realizado aprete el boton "Connect" ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen18.png)
 
 Si a tenido problemas para poder conectarse puede consultar con el siguiente video
 
@@ -280,7 +280,7 @@ Si a tenido problemas para poder conectarse puede consultar con el siguiente vid
 
 En caso de que le haya salido el siguiente error (El cual es muy normal al momento de iniciar SQL)
 
-![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen18.png)
+![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen19.png)
 
 Puede consultar el siguiente video para solucionarlo
 
