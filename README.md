@@ -1,5 +1,10 @@
 ![](RackMultipart20231128-1-6pfiff_html_bf3a12c5dbdad514.png)
 
+https://youtu.be/l9Dn-CLzl2E?si=-qzHBblqac-Gsywh
+
+
+[![Alt text for your video](https://img.youtube.com/vi/l9Dn-CLzl2E/0.jpg)](https://youtu.be/l9Dn-CLzl2E)
+
 # **MANUAL TÉCNICO**
 
 # **Proyecto "INCOTERMS"**
@@ -174,7 +179,7 @@ Antes de empezar debe descargar el proyecto de la rama " **Main**" del git [http
 
 - Configuración SQLServer
 
-Para usar el proyecto primeramente tendremos que iniciar la base de datos "[BDEquiposMedicosFinal (1).bak](https://github.com/CristhianEscalera/Incoterms/blob/main/BDEquiposMedicosFinal%20(1).bak)" mediante SQLServer
+Para usar el proyecto primeramente tendremos que iniciar la base de datos "[BDEquiposMedicosOficial.bak](https://github.com/CristhianEscalera/Incoterms/blob/main/BDEquiposMedicosOficial.bak)" mediante SQLServer
 
 **En caso de que no lo tenga y no sepa como iniciar la base siga los siguientes pasos:**
 
@@ -291,7 +296,7 @@ Puede consultar el siguiente video para solucionarlo
 
 1. **Restauracion de la Base de datos**
 
-Para restaurar la base de datos augúrese haber descargado "[BDEquiposMedicosFinal (1).bak](https://github.com/CristhianEscalera/Incoterms/blob/main/BDEquiposMedicosFinal%20(1).bak)"
+Para restaurar la base de datos augúrese haber descargado "[BDEquiposMedicosOficial.bak](https://github.com/CristhianEscalera/Incoterms/blob/main/BDEquiposMedicosOficial.bak)"
 
 Para poder realizar su recuperación debe estar **logeado en SQLServer con el usuario sa** , una vez este logeado debe realizar lo siguiente:
 
@@ -307,7 +312,7 @@ En la nueva ventana abierta presione el boton "Add"
 
 ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen22.png)
 
-Debe mover el archivo "[BDEquiposMedicosFinal (1).bak](https://github.com/CristhianEscalera/Incoterms/blob/main/BDEquiposMedicosFinal%20(1).bak)" dentro del disco C:\ de su computador en este caso Y COMO EJEMPLO puede crear una carpeta en el disco C y mover el archivo a esta
+Debe mover el archivo "[BDEquiposMedicosOficial.bak](https://github.com/CristhianEscalera/Incoterms/blob/main/BDEquiposMedicosOficial.bak)" dentro del disco C:\ de su computador en este caso Y COMO EJEMPLO puede crear una carpeta en el disco C y mover el archivo a esta
 
 ![](https://github.com/CristhianEscalera/Incoterms/blob/main/Imagenes/Imagenes/Imagen23.png)
 
